@@ -1,0 +1,8 @@
+<map id="UncertainOptimizationModel" name="UncertainOptimizationModel">
+<area shape="rect" id="node1" title="Uncertain optimization model." alt="" coords="197,61,386,87"/>
+<area shape="rect" id="node3" href="$class_d_d_u_optimization_model.html" title="Optimization model with decision&#45;dependent information discovery." alt="" coords="466,5,626,31"/>
+<area shape="rect" id="node4" href="$class_simple_uncertain_optimization_model.html" title="Simple uncertain optimization model." alt="" coords="449,55,643,93"/>
+<area shape="rect" id="node6" href="$class_uncertain_single_stage_optimization_model.html" title="Single stage uncertain optimization model." alt="" coords="434,117,658,156"/>
+<area shape="rect" id="node2" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="5,61,149,87"/>
+<area shape="rect" id="node5" href="$class_simple_uncertain_single_stage_optimization_model.html" title="Simple uncertain single stage optimization model." alt="" coords="706,55,897,93"/>
+</map>

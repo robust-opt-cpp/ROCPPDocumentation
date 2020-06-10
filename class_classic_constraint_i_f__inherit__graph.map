@@ -1,0 +1,6 @@
+<map id="ClassicConstraintIF" name="ClassicConstraintIF">
+<area shape="rect" id="node1" title="Classic constraint interface class." alt="" coords="49,79,186,104"/>
+<area shape="rect" id="node3" href="$class_eq_constraint.html" title="Equality constraint." alt="" coords="5,152,104,177"/>
+<area shape="rect" id="node4" href="$class_ineq_constraint.html" title="Inequality constraint." alt="" coords="127,152,235,177"/>
+<area shape="rect" id="node2" href="$class_constraint_i_f.html" title="Constraint interface class." alt="" coords="70,5,164,31"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="DecisionRuleApproximatorIF" name="DecisionRuleApproximatorIF">
+<area shape="rect" id="node1" title="Decision rule approximator interface." alt="" coords="124,5,315,31"/>
+<area shape="rect" id="node2" href="$class_continuous_vars_approximator_i_f.html" title="Approximating continuous variable." alt="" coords="5,79,212,104"/>
+<area shape="rect" id="node4" href="$class_discrete_vars_approximator_i_f.html" title="Class for approximating discrete variable." alt="" coords="236,79,424,104"/>
+<area shape="rect" id="node3" href="$class_l_d_rapproximator.html" title="Class for approximating continuous variable by linear function of uncertainties." alt="" coords="46,152,171,177"/>
+<area shape="rect" id="node5" href="$class_c_d_rapproximator.html" title="Class for approximating discrete variable to a expression constant in uncertainty." alt="" coords="266,152,394,177"/>
+</map>

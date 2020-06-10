@@ -1,0 +1,7 @@
+<map id="AdaptiveVariableIF" name="AdaptiveVariableIF">
+<area shape="rect" id="node1" title="Adaptive variable interface class." alt="" coords="125,79,258,104"/>
+<area shape="rect" id="node3" href="$class_adapt_var_bool.html" title="Adaptive boolean variable." alt="" coords="5,152,108,177"/>
+<area shape="rect" id="node4" href="$class_adapt_var_double.html" title="Adaptive real&#45;valued variable." alt="" coords="132,152,250,177"/>
+<area shape="rect" id="node5" href="$class_adapt_var_int.html" title="Adaptive integer variable." alt="" coords="274,152,365,177"/>
+<area shape="rect" id="node2" href="$class_decision_variable_i_f.html" title="Decision variable interface class." alt="" coords="125,5,257,31"/>
+</map>

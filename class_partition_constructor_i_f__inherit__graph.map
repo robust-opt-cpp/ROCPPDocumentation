@@ -1,0 +1,5 @@
+<map id="PartitionConstructorIF" name="PartitionConstructorIF">
+<area shape="rect" id="node1" title="Partition constructor interface." alt="" coords="128,5,279,31"/>
+<area shape="rect" id="node2" href="$class_adaptive_partition_constructor.html" title="Adaptive partition constructor." alt="" coords="5,79,196,104"/>
+<area shape="rect" id="node3" href="$class_static_partition_constructor.html" title="Static partition constructor." alt="" coords="220,79,392,104"/>
+</map>

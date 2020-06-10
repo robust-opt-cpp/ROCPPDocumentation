@@ -1,0 +1,7 @@
+<map id="VariableIF" name="VariableIF">
+<area shape="rect" id="node1" title="Static decision variable interface class." alt="" coords="141,79,222,104"/>
+<area shape="rect" id="node3" href="$class_variable_bool.html" title="Static boolean variable." alt="" coords="5,152,101,177"/>
+<area shape="rect" id="node4" href="$class_variable_double.html" title="Static real&#45;valued variable." alt="" coords="126,152,237,177"/>
+<area shape="rect" id="node5" href="$class_variable_int.html" title="Static integer variable." alt="" coords="261,152,345,177"/>
+<area shape="rect" id="node2" href="$class_decision_variable_i_f.html" title="Decision variable interface class." alt="" coords="115,5,247,31"/>
+</map>

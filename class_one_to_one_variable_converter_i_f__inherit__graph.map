@@ -1,0 +1,7 @@
+<map id="OneToOneVariableConverterIF" name="OneToOneVariableConverterIF">
+<area shape="rect" id="node1" title="Variable to variable converter interface." alt="" coords="72,79,276,104"/>
+<area shape="rect" id="node3" href="$class_discrete_vars_d_r_i_f.html" title="Discrete variable decision rule interface." alt="" coords="18,152,146,177"/>
+<area shape="rect" id="node5" href="$class_predef_o2_o_variable_converter.html" title="Pre&#45;defined variable to variable converter." alt="" coords="170,152,365,177"/>
+<area shape="rect" id="node2" href="$class_variable_converter_i_f.html" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="104,5,244,31"/>
+<area shape="rect" id="node4" href="$class_constant_decision_rule.html" title="Constant decision rule." alt="" coords="5,225,159,251"/>
+</map>

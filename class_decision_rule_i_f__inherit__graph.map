@@ -1,0 +1,7 @@
+<map id="DecisionRuleIF" name="DecisionRuleIF">
+<area shape="rect" id="node1" title="Decision rule approximator interface." alt="" coords="103,5,214,31"/>
+<area shape="rect" id="node2" href="$class_continuous_vars_d_r_i_f.html" title="Continous variable decision rule interface class." alt="" coords="5,79,152,104"/>
+<area shape="rect" id="node4" href="$class_discrete_vars_d_r_i_f.html" title="Discrete variable decision rule interface." alt="" coords="177,79,305,104"/>
+<area shape="rect" id="node3" href="$class_linear_decision_rule.html" title="Linear decision rule." alt="" coords="6,152,143,177"/>
+<area shape="rect" id="node5" href="$class_constant_decision_rule.html" title="Constant decision rule." alt="" coords="167,152,320,177"/>
+</map>

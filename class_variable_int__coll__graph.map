@@ -1,0 +1,5 @@
+<map id="VariableInt" name="VariableInt">
+<area shape="rect" id="node1" title="Static integer variable." alt="" coords="29,152,114,177"/>
+<area shape="rect" id="node2" href="$class_variable_i_f.html" title="Static decision variable interface class." alt="" coords="31,79,112,104"/>
+<area shape="rect" id="node3" href="$class_decision_variable_i_f.html" title="Decision variable interface class." alt="" coords="5,5,138,31"/>
+</map>

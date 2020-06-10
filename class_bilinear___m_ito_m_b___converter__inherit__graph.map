@@ -1,0 +1,7 @@
+<map id="Bilinear_MItoMB_Converter" name="Bilinear_MItoMB_Converter">
+<area shape="rect" id="node1" title="Converts bilinear mixed integer terms to bilinear mixed binary terms." alt="" coords="41,152,226,177"/>
+<area shape="rect" id="node4" href="$class_binary_converter.html" title=" " alt="" coords="5,225,123,251"/>
+<area shape="rect" id="node5" href="$class_unary_converter.html" title=" " alt="" coords="146,225,262,251"/>
+<area shape="rect" id="node2" href="$class_one_to_expr_variable_converter_i_f.html" title="Variable to expression converter interface." alt="" coords="30,79,237,104"/>
+<area shape="rect" id="node3" href="$class_variable_converter_i_f.html" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="64,5,203,31"/>
+</map>

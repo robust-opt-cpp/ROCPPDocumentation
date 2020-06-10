@@ -1,0 +1,6 @@
+<map id="DDUApproximatorIF" name="DDUApproximatorIF">
+<area shape="rect" id="node1" title="Approximator interface for decision&#45;making problems with decision&#45;dependent information discovery." alt="" coords="233,5,374,31"/>
+<area shape="rect" id="node2" href="$class_kadaptability_approximator_m_s.html" title="K&#45;adaptability approximator." alt="" coords="5,79,202,104"/>
+<area shape="rect" id="node3" href="$class_l_d_r_c_d_r_approximator.html" title="Linear decision rule and constant decision rule approximator." alt="" coords="226,79,382,104"/>
+<area shape="rect" id="node4" href="$class_piecewise_approximator.html" title="Piecewise approximator." alt="" coords="406,79,567,104"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_d_d_u_approximator_i_f.html" title="Approximator interface for decision&#45;making problems with decision&#45;dependent information discovery." alt="" coords="5,55,147,80"/>
+<area shape="rect" id="node2" href="$class_kadaptability_approximator_m_s.html" title="K&#45;adaptability approximator." alt="" coords="195,5,392,31"/>
+<area shape="rect" id="node3" href="$class_l_d_r_c_d_r_approximator.html" title="Linear decision rule and constant decision rule approximator." alt="" coords="215,55,371,80"/>
+<area shape="rect" id="node4" href="$class_piecewise_approximator.html" title="Piecewise approximator." alt="" coords="213,104,374,129"/>
+</map>

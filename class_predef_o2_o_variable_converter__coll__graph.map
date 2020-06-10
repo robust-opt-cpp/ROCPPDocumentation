@@ -1,0 +1,5 @@
+<map id="PredefO2OVariableConverter" name="PredefO2OVariableConverter">
+<area shape="rect" id="node1" title="Pre&#45;defined variable to variable converter." alt="" coords="10,152,205,177"/>
+<area shape="rect" id="node2" href="$class_one_to_one_variable_converter_i_f.html" title="Variable to variable converter interface." alt="" coords="5,79,209,104"/>
+<area shape="rect" id="node3" href="$class_variable_converter_i_f.html" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="38,5,177,31"/>
+</map>

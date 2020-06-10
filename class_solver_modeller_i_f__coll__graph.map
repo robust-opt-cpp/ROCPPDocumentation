@@ -1,0 +1,5 @@
+<map id="SolverModellerIF" name="SolverModellerIF">
+<area shape="rect" id="node1" title="Class used to interface with deterministic optimization solvers." alt="" coords="59,92,182,117"/>
+<area shape="rect" id="node2" href="$class_solver_params.html" title="Class to store the solver parameters." alt="" coords="5,5,110,31"/>
+<area shape="rect" id="node3" href="$structresult_params.html" title="Class to store the retults of a solver." alt="" coords="135,5,234,31"/>
+</map>

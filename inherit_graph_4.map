@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_decision_variable_i_f.html" title="Decision variable interface class." alt="" coords="5,141,138,167"/>
+<area shape="rect" id="node2" href="$class_adaptive_variable_i_f.html" title="Adaptive variable interface class." alt="" coords="186,92,319,117"/>
+<area shape="rect" id="node6" href="$class_variable_i_f.html" title="Static decision variable interface class." alt="" coords="212,165,293,191"/>
+<area shape="rect" id="node3" href="$class_adapt_var_bool.html" title="Adaptive boolean variable." alt="" coords="374,5,477,31"/>
+<area shape="rect" id="node4" href="$class_adapt_var_double.html" title="Adaptive real&#45;valued variable." alt="" coords="367,55,485,80"/>
+<area shape="rect" id="node5" href="$class_adapt_var_int.html" title="Adaptive integer variable." alt="" coords="380,104,471,129"/>
+<area shape="rect" id="node7" href="$class_variable_bool.html" title="Static boolean variable." alt="" coords="378,153,474,179"/>
+<area shape="rect" id="node8" href="$class_variable_double.html" title="Static real&#45;valued variable." alt="" coords="370,203,481,228"/>
+<area shape="rect" id="node9" href="$class_variable_int.html" title="Static integer variable." alt="" coords="384,252,468,277"/>
+</map>

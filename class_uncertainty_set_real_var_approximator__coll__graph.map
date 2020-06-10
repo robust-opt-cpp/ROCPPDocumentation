@@ -1,0 +1,6 @@
+<map id="UncertaintySetRealVarApproximator" name="UncertaintySetRealVarApproximator">
+<area shape="rect" id="node1" title="Approximate the real&#45;valued decisions affecting the uncertainty set." alt="" coords="5,225,241,251"/>
+<area shape="rect" id="node2" href="$class_real_var_discretizer.html" title="Approximate real&#45;valued decisions." alt="" coords="57,152,189,177"/>
+<area shape="rect" id="node3" href="$class_one_to_expr_variable_converter_i_f.html" title="Variable to expression converter interface." alt="" coords="20,79,226,104"/>
+<area shape="rect" id="node4" href="$class_variable_converter_i_f.html" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="53,5,193,31"/>
+</map>

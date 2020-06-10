@@ -1,0 +1,5 @@
+<map id="AdaptVarBool" name="AdaptVarBool">
+<area shape="rect" id="node1" title="Adaptive boolean variable." alt="" coords="21,152,123,177"/>
+<area shape="rect" id="node2" href="$class_adaptive_variable_i_f.html" title="Adaptive variable interface class." alt="" coords="5,79,138,104"/>
+<area shape="rect" id="node3" href="$class_decision_variable_i_f.html" title="Decision variable interface class." alt="" coords="6,5,138,31"/>
+</map>
