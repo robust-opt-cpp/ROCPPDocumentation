@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['simpleobjective_910',['SimpleObjective',['../class_simple_objective.html',1,'']]],
-  ['simpleuncertainoptimizationmodel_911',['SimpleUncertainOptimizationModel',['../class_simple_uncertain_optimization_model.html',1,'']]],
-  ['simpleuncertainsinglestageoptimizationmodel_912',['SimpleUncertainSingleStageOptimizationModel',['../class_simple_uncertain_single_stage_optimization_model.html',1,'']]],
-  ['solvermodellerif_913',['SolverModellerIF',['../class_solver_modeller_i_f.html',1,'']]],
-  ['solverparams_914',['SolverParams',['../class_solver_params.html',1,'']]],
-  ['sosconstraint_915',['SOSConstraint',['../class_s_o_s_constraint.html',1,'']]],
-  ['staticpartitionconstructor_916',['StaticPartitionConstructor',['../class_static_partition_constructor.html',1,'']]]
+  ['variablebool_869',['VariableBool',['../class_variable_bool.html',1,'']]],
+  ['variableconverterif_870',['VariableConverterIF',['../class_variable_converter_i_f.html',1,'']]],
+  ['variabledouble_871',['VariableDouble',['../class_variable_double.html',1,'']]],
+  ['variableif_872',['VariableIF',['../class_variable_i_f.html',1,'']]],
+  ['variableint_873',['VariableInt',['../class_variable_int.html',1,'']]]
 ];

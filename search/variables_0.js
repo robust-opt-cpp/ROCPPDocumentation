@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['angeles_1492',['Angeles',['../_u_s_clicense_8txt.html#afc217b6043fbeeb4e4e6c7ff9bfbfba7',1,'USClicense.txt']]]
+  ['infinity_1381',['INFINITY',['../_header_include_files_8hpp.html#a84cb1a7e96ee31c2ce778fb60bd2aa87',1,'HeaderIncludeFiles.hpp']]]
 ];

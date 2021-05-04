@@ -1,6 +1,6 @@
 <map id="DiscreteVarsDRIF" name="DiscreteVarsDRIF">
-<area shape="rect" id="node1" title="Discrete variable decision rule interface." alt="" coords="134,152,262,177"/>
-<area shape="rect" id="node2" href="$class_one_to_one_variable_converter_i_f.html" title="Variable to variable converter interface." alt="" coords="5,79,209,104"/>
-<area shape="rect" id="node3" href="$class_variable_converter_i_f.html" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="38,5,177,31"/>
-<area shape="rect" id="node4" href="$class_decision_rule_i_f.html" title="Decision rule approximator interface." alt="" coords="233,79,345,104"/>
+<area shape="rect" id="node1" title="Discrete variable decision rule interface." alt="" coords="129,155,259,181"/>
+<area shape="rect" id="node2" href="$class_one_to_one_variable_converter_i_f.html" title="Variable to variable converter interface." alt="" coords="5,80,204,107"/>
+<area shape="rect" id="node3" href="$class_variable_converter_i_f.html" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="36,5,173,32"/>
+<area shape="rect" id="node4" href="$class_decision_rule_i_f.html" title="Decision rule approximator interface." alt="" coords="229,80,341,107"/>
 </map>

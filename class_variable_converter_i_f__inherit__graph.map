@@ -1,17 +1,17 @@
 <map id="VariableConverterIF" name="VariableConverterIF">
-<area shape="rect" id="node1" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="5,252,145,277"/>
-<area shape="rect" id="node2" href="$class_one_to_expr_variable_converter_i_f.html" title="Variable to expression converter interface." alt="" coords="193,179,399,204"/>
-<area shape="rect" id="node12" href="$class_one_to_one_variable_converter_i_f.html" title="Variable to variable converter interface." alt="" coords="194,301,398,327"/>
-<area shape="rect" id="node3" href="$class_bilinear___m_ito_m_b___converter.html" title="Converts bilinear mixed integer terms to bilinear mixed binary terms." alt="" coords="461,55,646,80"/>
-<area shape="rect" id="node6" href="$class_continuous_vars_d_r_i_f.html" title="Continous variable decision rule interface class." alt="" coords="481,104,627,129"/>
-<area shape="rect" id="node8" href="$class_predef_o2_e_variable_converter.html" title="Pre&#45;defined variable to expression converter." alt="" coords="457,153,651,179"/>
-<area shape="rect" id="node9" href="$class_real_var_bilinear_pos_reformulator.html" title=" " alt="" coords="447,203,660,228"/>
-<area shape="rect" id="node10" href="$class_real_var_discretizer.html" title="Approximate real&#45;valued decisions." alt="" coords="488,252,620,277"/>
-<area shape="rect" id="node4" href="$class_binary_converter.html" title=" " alt="" coords="767,5,885,31"/>
-<area shape="rect" id="node5" href="$class_unary_converter.html" title=" " alt="" coords="768,55,884,80"/>
-<area shape="rect" id="node7" href="$class_linear_decision_rule.html" title="Linear decision rule." alt="" coords="758,104,894,129"/>
-<area shape="rect" id="node11" href="$class_uncertainty_set_real_var_approximator.html" title="Approximate the real&#45;valued decisions affecting the uncertainty set." alt="" coords="708,252,944,277"/>
-<area shape="rect" id="node13" href="$class_discrete_vars_d_r_i_f.html" title="Discrete variable decision rule interface." alt="" coords="490,301,618,327"/>
-<area shape="rect" id="node15" href="$class_predef_o2_o_variable_converter.html" title="Pre&#45;defined variable to variable converter." alt="" coords="456,351,651,376"/>
-<area shape="rect" id="node14" href="$class_constant_decision_rule.html" title="Constant decision rule." alt="" coords="749,301,903,327"/>
+<area shape="rect" id="node1" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="5,259,143,285"/>
+<area shape="rect" id="node2" href="$class_one_to_expr_variable_converter_i_f.html" title="Variable to expression converter interface." alt="" coords="191,183,393,209"/>
+<area shape="rect" id="node12" href="$class_one_to_one_variable_converter_i_f.html" title="Variable to variable converter interface." alt="" coords="193,309,391,336"/>
+<area shape="rect" id="node3" href="$class_bilinear___m_ito_m_b___converter.html" title="Converts bilinear mixed integer terms to bilinear mixed binary terms." alt="" coords="455,56,637,83"/>
+<area shape="rect" id="node6" href="$class_continuous_vars_d_r_i_f.html" title="Continous variable decision rule interface class." alt="" coords="473,107,619,133"/>
+<area shape="rect" id="node8" href="$class_predef_o2_e_variable_converter.html" title="Pre&#45;defined variable to expression converter." alt="" coords="451,157,641,184"/>
+<area shape="rect" id="node9" href="$class_real_var_bilinear_pos_reformulator.html" title=" " alt="" coords="441,208,651,235"/>
+<area shape="rect" id="node10" href="$class_real_var_discretizer.html" title="Approximate real&#45;valued decisions." alt="" coords="481,259,611,285"/>
+<area shape="rect" id="node4" href="$class_binary_converter.html" title=" " alt="" coords="757,5,873,32"/>
+<area shape="rect" id="node5" href="$class_unary_converter.html" title=" " alt="" coords="757,56,872,83"/>
+<area shape="rect" id="node7" href="$class_linear_decision_rule.html" title="Linear decision rule." alt="" coords="747,107,882,133"/>
+<area shape="rect" id="node11" href="$class_uncertainty_set_real_var_approximator.html" title="Approximate the real&#45;valued decisions affecting the uncertainty set." alt="" coords="699,259,931,285"/>
+<area shape="rect" id="node13" href="$class_discrete_vars_d_r_i_f.html" title="Discrete variable decision rule interface." alt="" coords="481,309,611,336"/>
+<area shape="rect" id="node15" href="$class_predef_o2_o_variable_converter.html" title="Pre&#45;defined variable to variable converter." alt="" coords="451,360,641,387"/>
+<area shape="rect" id="node14" href="$class_constant_decision_rule.html" title="Constant decision rule." alt="" coords="738,309,891,336"/>
 </map>

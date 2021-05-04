@@ -1,5 +1,5 @@
 <map id="ConstraintTermIF" name="ConstraintTermIF">
-<area shape="rect" id="node1" title="Constraint term interface." alt="" coords="43,5,166,31"/>
-<area shape="rect" id="node2" href="$class_norm_term.html" title="Norm term (norm of vector of left hand&#45;side expressions)" alt="" coords="5,79,89,104"/>
-<area shape="rect" id="node3" href="$class_product_term.html" title="Product term." alt="" coords="113,79,210,104"/>
+<area shape="rect" id="node1" title="Constraint term interface." alt="" coords="41,5,164,32"/>
+<area shape="rect" id="node2" href="$class_norm_term.html" title="Norm term (norm of vector of left hand&#45;side expressions)" alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$class_product_term.html" title="Product term." alt="" coords="112,80,208,107"/>
 </map>

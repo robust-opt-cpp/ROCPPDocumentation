@@ -1,7 +1,0 @@
-<map id="GurobiModeller" name="GurobiModeller">
-<area shape="rect" id="node1" title="Class used to interface with the Gurobi deterministic optimization solvers." alt="" coords="148,179,261,204"/>
-<area shape="rect" id="node2" href="$class_solver_modeller_i_f.html" title="Class used to interface with deterministic optimization solvers." alt="" coords="59,92,182,117"/>
-<area shape="rect" id="node3" href="$class_solver_params.html" title="Class to store the solver parameters." alt="" coords="5,5,110,31"/>
-<area shape="rect" id="node4" href="$structresult_params.html" title="Class to store the retults of a solver." alt="" coords="135,5,234,31"/>
-<area shape="rect" id="node5" href="$struct_gurobi_variable_container.html" title=" " alt="" coords="205,92,372,117"/>
-</map>

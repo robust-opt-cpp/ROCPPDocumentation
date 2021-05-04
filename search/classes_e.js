@@ -1,10 +1,13 @@
 var searchData=
 [
-  ['rdportfoliooptimizationparams_903',['RDPortfolioOptimizationParams',['../class_r_d_portfolio_optimization_params.html',1,'']]],
-  ['rdportfoliooptimizationproblemcreator_904',['RDPortfolioOptimizationProblemCreator',['../class_r_d_portfolio_optimization_problem_creator.html',1,'']]],
-  ['realvarbilinearposreformulator_905',['RealVarBilinearPosReformulator',['../class_real_var_bilinear_pos_reformulator.html',1,'']]],
-  ['realvardiscretizer_906',['RealVarDiscretizer',['../class_real_var_discretizer.html',1,'']]],
-  ['resultparams_907',['resultParams',['../structresult_params.html',1,'']]],
-  ['rhsparams_908',['rhsParams',['../structrhs_params.html',1,'']]],
-  ['robustifyengine_909',['RobustifyEngine',['../class_robustify_engine.html',1,'']]]
+  ['unaryconverter_859',['UnaryConverter',['../class_unary_converter.html',1,'']]],
+  ['unccontainer_860',['uncContainer',['../classunc_container.html',1,'']]],
+  ['uncertainmultistageoptimizationmodel_861',['UncertainMultiStageOptimizationModel',['../class_uncertain_multi_stage_optimization_model.html',1,'']]],
+  ['uncertainoptimizationmodel_862',['UncertainOptimizationModel',['../class_uncertain_optimization_model.html',1,'']]],
+  ['uncertainsinglestageoptimizationmodel_863',['UncertainSingleStageOptimizationModel',['../class_uncertain_single_stage_optimization_model.html',1,'']]],
+  ['uncertaintyconverterif_864',['UncertaintyConverterIF',['../class_uncertainty_converter_i_f.html',1,'']]],
+  ['uncertaintyif_865',['UncertaintyIF',['../class_uncertainty_i_f.html',1,'']]],
+  ['uncertaintysetrealvarapproximator_866',['UncertaintySetRealVarApproximator',['../class_uncertainty_set_real_var_approximator.html',1,'']]],
+  ['unctouncconverter_867',['UncToUncConverter',['../class_unc_to_unc_converter.html',1,'']]],
+  ['unctovariableconverter_868',['UncToVariableConverter',['../class_unc_to_variable_converter.html',1,'']]]
 ];

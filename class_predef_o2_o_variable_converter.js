@@ -1,11 +1,11 @@
 var class_predef_o2_o_variable_converter =
 [
-    [ "PredefO2OVariableConverter", "class_predef_o2_o_variable_converter.html#a659a93bb47ef9810023c51fa0d9af9b0", null ],
+    [ "PredefO2OVariableConverter", "class_predef_o2_o_variable_converter.html#a04a87ccf70b1c22cf59bc2d6ccfe2977", null ],
     [ "~PredefO2OVariableConverter", "class_predef_o2_o_variable_converter.html#a6820af910528e64bab96d2e7c82a1c44", null ],
-    [ "createTranslationMap", "class_predef_o2_o_variable_converter.html#a31079a768b3c20edb5e78f17a8647eec", null ],
-    [ "doMyThing", "class_predef_o2_o_variable_converter.html#a9ec77006eb4f8791608177e2eeae5afe", null ],
-    [ "doMyThing", "class_predef_o2_o_variable_converter.html#a6f8ce54d5121bb22b71df3acba4f132f", null ],
-    [ "doMyThing", "class_predef_o2_o_variable_converter.html#a63cccea64be423e57b899f8c39a3476d", null ],
-    [ "findVarsToTranslate", "class_predef_o2_o_variable_converter.html#a60e6f6260280b950e19d786ffa0df98a", null ],
-    [ "m_origDVs", "class_predef_o2_o_variable_converter.html#ab5c5b3fb2d881b33bb97c499a7ecdaae", null ]
+    [ "convertVar", "class_predef_o2_o_variable_converter.html#aeeca8c81f63297a69df53f07d057a283", null ],
+    [ "convertVar", "class_predef_o2_o_variable_converter.html#aecda84e8b448036b6d4372263c14bdc1", null ],
+    [ "convertVar", "class_predef_o2_o_variable_converter.html#af1861b9b7613c1b2332771b84c4bea70", null ],
+    [ "createTranslationMap", "class_predef_o2_o_variable_converter.html#a883c6d1b6299bb24197d94e5821688dc", null ],
+    [ "findVarsToTranslate", "class_predef_o2_o_variable_converter.html#ad4d1c41b46ae8baa546e18124b453969", null ],
+    [ "m_origDVs", "class_predef_o2_o_variable_converter.html#af9cdfb4dafd6d2ba4431ad9502bd1f41", null ]
 ];

@@ -1,7 +1,0 @@
-<map id="DiscreteVarsApproximatorIF" name="DiscreteVarsApproximatorIF">
-<area shape="rect" id="node1" title="Class for approximating discrete variable." alt="" coords="124,152,312,177"/>
-<area shape="rect" id="node5" href="$class_c_d_rapproximator.html" title="Class for approximating discrete variable to a expression constant in uncertainty." alt="" coords="154,225,282,251"/>
-<area shape="rect" id="node2" href="$class_one_to_one_variable_converter_i_f.html" title="Class for convert a variable to another variable." alt="" coords="5,79,209,104"/>
-<area shape="rect" id="node3" href="$class_variable_converter_i_f.html" title="Class for variable converter interface." alt="" coords="38,5,177,31"/>
-<area shape="rect" id="node4" href="$class_decision_rule_approximator_i_f.html" title="Decision rule approximator interface." alt="" coords="233,79,424,104"/>
-</map>

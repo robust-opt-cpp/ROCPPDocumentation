@@ -1,6 +1,7 @@
 <map id="UnaryConverter" name="UnaryConverter">
-<area shape="rect" id="node1" title=" " alt="" coords="51,225,166,251"/>
-<area shape="rect" id="node2" href="$class_bilinear___m_ito_m_b___converter.html" title="Converts bilinear mixed integer terms to bilinear mixed binary terms." alt="" coords="16,152,201,177"/>
-<area shape="rect" id="node3" href="$class_one_to_expr_variable_converter_i_f.html" title="Variable to expression converter interface." alt="" coords="5,79,212,104"/>
-<area shape="rect" id="node4" href="$class_variable_converter_i_f.html" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="39,5,178,31"/>
+<area shape="rect" id="node1" title=" " alt="" coords="153,229,268,256"/>
+<area shape="rect" id="node2" href="$class_bilinear___m_ito_m_b___converter.html" title="Converts bilinear mixed integer terms to bilinear mixed binary terms." alt="" coords="119,155,302,181"/>
+<area shape="rect" id="node3" href="$class_one_to_expr_variable_converter_i_f.html" title="Variable to expression converter interface." alt="" coords="5,80,208,107"/>
+<area shape="rect" id="node4" href="$class_variable_converter_i_f.html" title="Variable converter interface class Use to map variables to other variables or to expressions." alt="" coords="38,5,175,32"/>
+<area shape="rect" id="node5" href="$class_reformulation_strategy_i_f.html" title=" " alt="" coords="233,80,397,107"/>
 </map>

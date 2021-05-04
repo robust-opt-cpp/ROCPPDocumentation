@@ -1,3 +1,12 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structmeas_pair.html" title="Structure containing an uncertain parameter whose time of revelation is decision&#45;dependent and its as..." alt="" coords="5,5,83,31"/>
+<area shape="rect" id="node1" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="5,136,148,163"/>
+<area shape="rect" id="node2" href="$class_deterministic_optimization_model.html" title="Deterministic optimization model." alt="" coords="203,74,375,115"/>
+<area shape="rect" id="node6" href="$class_uncertain_optimization_model.html" title="Uncertain optimization model." alt="" coords="196,165,383,192"/>
+<area shape="rect" id="node3" href="$class_bilinear___m_i_s_o_c_p.html" title="Bilinear mix integer socp model." alt="" coords="479,5,604,32"/>
+<area shape="rect" id="node4" href="$class_c_p_l_e_x_m_i_s_o_c_p.html" title="CPLEX MISOCP model." alt="" coords="482,56,601,83"/>
+<area shape="rect" id="node5" href="$class_m_i_s_o_c_p.html" title="Mix integer socp model." alt="" coords="504,107,579,133"/>
+<area shape="rect" id="node7" href="$class_uncertain_multi_stage_optimization_model.html" title="Multi stage uncertain optimization model." alt="" coords="435,158,648,199"/>
+<area shape="rect" id="node10" href="$class_uncertain_single_stage_optimization_model.html" title="Single stage uncertain optimization model." alt="" coords="431,223,652,265"/>
+<area shape="rect" id="node8" href="$class_multi_stage_opt_model_d_d_i_d.html" title="Optimization model with decision&#45;dependent information discovery." alt="" coords="701,140,876,167"/>
+<area shape="rect" id="node9" href="$class_multi_stage_opt_model_exo_i_d.html" title="Multi stage uncertain optimization model with exogenous uncertainty." alt="" coords="700,191,877,217"/>
 </map>

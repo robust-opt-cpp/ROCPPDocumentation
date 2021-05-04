@@ -1,5 +1,0 @@
-<map id="DDUOptimizationModel" name="DDUOptimizationModel">
-<area shape="rect" id="node1" title="Optimization model with decision&#45;dependent information discovery." alt="" coords="19,152,180,177"/>
-<area shape="rect" id="node2" href="$class_uncertain_optimization_model.html" title="Uncertain optimization model." alt="" coords="5,79,194,104"/>
-<area shape="rect" id="node3" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="28,5,172,31"/>
-</map>

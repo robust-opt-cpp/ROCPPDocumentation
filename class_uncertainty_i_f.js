@@ -2,7 +2,7 @@ var class_uncertainty_i_f =
 [
     [ "UncertaintyIF", "class_uncertainty_i_f.html#a1741d2262d413cf3d7c8ada0559822f0", null ],
     [ "~UncertaintyIF", "class_uncertainty_i_f.html#a238aa2f64573d07d40428634c598df76", null ],
-    [ "Clone", "class_uncertainty_i_f.html#a84656d46af1f38253e2f88ac1ccea0ab", null ],
+    [ "Clone", "class_uncertainty_i_f.html#a6623d432da55e4431ded371de5890eab", null ],
     [ "getName", "class_uncertainty_i_f.html#aa7dce022e2860684b0673e2f15086ad6", null ],
     [ "getTimeStage", "class_uncertainty_i_f.html#a3f0a7747cb340755ec62345fe8a682de", null ],
     [ "isObservable", "class_uncertainty_i_f.html#ae5f9f5cd67519ec606505273b00071ae", null ],

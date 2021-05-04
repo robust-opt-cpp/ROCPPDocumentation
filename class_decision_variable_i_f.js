@@ -2,7 +2,7 @@ var class_decision_variable_i_f =
 [
     [ "DecisionVariableIF", "class_decision_variable_i_f.html#a7314f9c2b7c1343b736fa3ce415e2a2d", null ],
     [ "~DecisionVariableIF", "class_decision_variable_i_f.html#a894f586f9119fdbf85e33c89b73346e2", null ],
-    [ "Clone", "class_decision_variable_i_f.html#a649bb9b0c3cc60a54a1e5e903b4cc9f1", null ],
+    [ "Clone", "class_decision_variable_i_f.html#a2a46b3f478523c2fe21a00d13e8ef63c", null ],
     [ "getLB", "class_decision_variable_i_f.html#a3045b37c14b34f7665fb8c4405fe6de2", null ],
     [ "getName", "class_decision_variable_i_f.html#acc3aed1861c08eef79fbf7d273c50fa9", null ],
     [ "getTimeStage", "class_decision_variable_i_f.html#a35cb97481f9a7757ce422f06cb45a9bd", null ],

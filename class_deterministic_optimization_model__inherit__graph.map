@@ -1,4 +1,7 @@
 <map id="DeterministicOptimizationModel" name="DeterministicOptimizationModel">
-<area shape="rect" id="node1" title="Deterministic optimization model." alt="" coords="5,79,178,117"/>
-<area shape="rect" id="node2" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="20,5,163,31"/>
+<area shape="rect" id="node1" title="Deterministic optimization model." alt="" coords="129,80,301,121"/>
+<area shape="rect" id="node3" href="$class_bilinear___m_i_s_o_c_p.html" title="Bilinear mix integer socp model." alt="" coords="5,169,131,196"/>
+<area shape="rect" id="node4" href="$class_c_p_l_e_x_m_i_s_o_c_p.html" title="CPLEX MISOCP model." alt="" coords="155,169,274,196"/>
+<area shape="rect" id="node5" href="$class_m_i_s_o_c_p.html" title="Mix integer socp model." alt="" coords="299,169,373,196"/>
+<area shape="rect" id="node2" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="143,5,286,32"/>
 </map>

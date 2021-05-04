@@ -1,5 +1,5 @@
 <map id="IneqConstraint" name="IneqConstraint">
-<area shape="rect" id="node1" title="Inequality constraint." alt="" coords="20,152,128,177"/>
-<area shape="rect" id="node2" href="$class_classic_constraint_i_f.html" title="Classic constraint interface class." alt="" coords="5,79,142,104"/>
-<area shape="rect" id="node3" href="$class_constraint_i_f.html" title="Constraint interface class." alt="" coords="27,5,121,31"/>
+<area shape="rect" id="node1" title="Inequality constraint." alt="" coords="21,155,128,181"/>
+<area shape="rect" id="node2" href="$class_classic_constraint_i_f.html" title="Classic constraint interface class." alt="" coords="5,80,144,107"/>
+<area shape="rect" id="node3" href="$class_constraint_i_f.html" title="Constraint interface class." alt="" coords="27,5,122,32"/>
 </map>

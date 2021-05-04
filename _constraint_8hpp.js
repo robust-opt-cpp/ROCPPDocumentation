@@ -7,9 +7,8 @@ var _constraint_8hpp =
     [ "EqConstraint", "class_eq_constraint.html", "class_eq_constraint" ],
     [ "SOSConstraint", "class_s_o_s_constraint.html", "class_s_o_s_constraint" ],
     [ "IfThenConstraint", "class_if_then_constraint.html", "class_if_then_constraint" ],
-    [ "ConstraintLHS_const_iterator", "_constraint_8hpp.html#a80f132c02d4cd42be2f75dcd9667ba96", null ],
-    [ "ConstraintLHS_iterator", "_constraint_8hpp.html#aa9102552e6a6fd8db965bc8165579e5f", null ],
-    [ "ROCPPConstraint", "_constraint_8hpp.html#a6695e8eb641f2deaba63baa4e6c75acb", null ],
-    [ "ROCPPConstraint_Ptr", "_constraint_8hpp.html#ad00baa55c222bb3084945aee018ba663", null ],
-    [ "createConstraint", "_constraint_8hpp.html#a8f08a904efdb9eedaf37e274f7515dd8", null ]
+    [ "ConstraintLHS_const_iterator", "_constraint_8hpp.html#a250448f87f2befc1c2defb8b683e280a", null ],
+    [ "ConstraintLHS_iterator", "_constraint_8hpp.html#a03bcd2a6b47262a1ecdecbb808d7ec6a", null ],
+    [ "createConstraint", "_constraint_8hpp.html#a2ecfc80bd8f1433e477f5ed57c84c937", null ],
+    [ "DoublesAreEssentiallyEqual", "_constraint_8hpp.html#a5f6a293f29829e4e9377c3914e38773e", null ]
 ];

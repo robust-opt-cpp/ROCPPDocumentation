@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['nondduiterator_1677',['nondduIterator',['../class_d_d_u_optimization_model.html#a38f626dadc8a825e70cf77918404060d',1,'DDUOptimizationModel']]],
-  ['numpartitionmap_5fiterator_1678',['numPartitionMap_iterator',['../class_kadaptability_partition_encoder_m_s.html#a725578b3aa39ec43dbc003a449f7e6e5',1,'KadaptabilityPartitionEncoderMS']]]
+  ['obj_5ffun_5fiterator_1516',['obj_fun_iterator',['../class_objective_function_i_f.html#a029ef508220bdbd5dd3331c4ea6e7c0d',1,'ObjectiveFunctionIF']]],
+  ['obj_5fiterator_1517',['obj_iterator',['../class_max_objective.html#a61f5ec351ab2409cc7cf81812759bf43',1,'MaxObjective']]]
 ];

@@ -1,11 +1,11 @@
 <map id="DecisionVariableIF" name="DecisionVariableIF">
-<area shape="rect" id="node1" title="Decision variable interface class." alt="" coords="283,5,415,31"/>
-<area shape="rect" id="node2" href="$class_adaptive_variable_i_f.html" title="Adaptive variable interface class." alt="" coords="217,79,350,104"/>
-<area shape="rect" id="node6" href="$class_variable_i_f.html" title="Static decision variable interface class." alt="" coords="431,79,512,104"/>
-<area shape="rect" id="node3" href="$class_adapt_var_bool.html" title="Adaptive boolean variable." alt="" coords="5,152,108,177"/>
-<area shape="rect" id="node4" href="$class_adapt_var_double.html" title="Adaptive real&#45;valued variable." alt="" coords="132,152,250,177"/>
-<area shape="rect" id="node5" href="$class_adapt_var_int.html" title="Adaptive integer variable." alt="" coords="274,152,365,177"/>
-<area shape="rect" id="node7" href="$class_variable_bool.html" title="Static boolean variable." alt="" coords="389,152,485,177"/>
-<area shape="rect" id="node8" href="$class_variable_double.html" title="Static real&#45;valued variable." alt="" coords="509,152,620,177"/>
-<area shape="rect" id="node9" href="$class_variable_int.html" title="Static integer variable." alt="" coords="644,152,728,177"/>
+<area shape="rect" id="node1" title="Decision variable interface class." alt="" coords="281,5,412,32"/>
+<area shape="rect" id="node2" href="$class_adaptive_variable_i_f.html" title="Adaptive variable interface class." alt="" coords="217,80,348,107"/>
+<area shape="rect" id="node6" href="$class_variable_i_f.html" title="Static decision variable interface class." alt="" coords="429,80,509,107"/>
+<area shape="rect" id="node3" href="$class_adapt_var_bool.html" title="Adaptive boolean variable." alt="" coords="5,155,107,181"/>
+<area shape="rect" id="node4" href="$class_adapt_var_double.html" title="Adaptive real&#45;valued variable." alt="" coords="131,155,247,181"/>
+<area shape="rect" id="node5" href="$class_adapt_var_int.html" title="Adaptive integer variable." alt="" coords="272,155,363,181"/>
+<area shape="rect" id="node7" href="$class_variable_bool.html" title="Static boolean variable." alt="" coords="387,155,482,181"/>
+<area shape="rect" id="node8" href="$class_variable_double.html" title="Static real&#45;valued variable." alt="" coords="507,155,616,181"/>
+<area shape="rect" id="node9" href="$class_variable_int.html" title="Static integer variable." alt="" coords="640,155,723,181"/>
 </map>

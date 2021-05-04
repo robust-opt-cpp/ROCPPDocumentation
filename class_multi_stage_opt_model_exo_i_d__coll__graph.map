@@ -1,0 +1,6 @@
+<map id="MultiStageOptModelExoID" name="MultiStageOptModelExoID">
+<area shape="rect" id="node1" title="Multi stage uncertain optimization model with exogenous uncertainty." alt="" coords="23,244,201,271"/>
+<area shape="rect" id="node2" href="$class_uncertain_multi_stage_optimization_model.html" title="Multi stage uncertain optimization model." alt="" coords="5,155,219,196"/>
+<area shape="rect" id="node3" href="$class_uncertain_optimization_model.html" title="Uncertain optimization model." alt="" coords="19,80,205,107"/>
+<area shape="rect" id="node4" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="41,5,183,32"/>
+</map>

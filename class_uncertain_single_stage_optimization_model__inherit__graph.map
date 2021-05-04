@@ -1,5 +1,5 @@
 <map id="UncertainSingleStageOptimizationModel" name="UncertainSingleStageOptimizationModel">
-<area shape="rect" id="node1" title="Single stage uncertain optimization model." alt="" coords="5,152,230,191"/>
-<area shape="rect" id="node2" href="$class_uncertain_optimization_model.html" title="Uncertain optimization model." alt="" coords="23,79,212,104"/>
-<area shape="rect" id="node3" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="46,5,189,31"/>
+<area shape="rect" id="node1" title="Single stage uncertain optimization model." alt="" coords="5,155,227,196"/>
+<area shape="rect" id="node2" href="$class_uncertain_optimization_model.html" title="Uncertain optimization model." alt="" coords="23,80,209,107"/>
+<area shape="rect" id="node3" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="45,5,187,32"/>
 </map>

@@ -1,0 +1,7 @@
+<map id="UncertainMultiStageOptimizationModel" name="UncertainMultiStageOptimizationModel">
+<area shape="rect" id="node1" title="Multi stage uncertain optimization model." alt="" coords="86,155,299,196"/>
+<area shape="rect" id="node4" href="$class_multi_stage_opt_model_d_d_i_d.html" title="Optimization model with decision&#45;dependent information discovery." alt="" coords="5,244,180,271"/>
+<area shape="rect" id="node5" href="$class_multi_stage_opt_model_exo_i_d.html" title="Multi stage uncertain optimization model with exogenous uncertainty." alt="" coords="204,244,381,271"/>
+<area shape="rect" id="node2" href="$class_uncertain_optimization_model.html" title="Uncertain optimization model." alt="" coords="99,80,286,107"/>
+<area shape="rect" id="node3" href="$class_optimization_model_i_f.html" title="Optimization model interface class." alt="" coords="121,5,264,32"/>
+</map>

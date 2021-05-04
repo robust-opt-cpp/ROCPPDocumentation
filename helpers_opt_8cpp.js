@@ -1,6 +1,6 @@
 var helpers_opt_8cpp =
 [
     [ "calculateArea", "helpers_opt_8cpp.html#a6c2e2e25547d0d2d737194b7388bbf13", null ],
-    [ "findMarginalSupportUncertaintySet", "helpers_opt_8cpp.html#a45828bee205d069dadddb103fbc61da1", null ],
-    [ "findWholeMarginalSupport", "helpers_opt_8cpp.html#aa011456df1cba80eac51f041eb082699", null ]
+    [ "findMarginalSupportUncertaintySet", "helpers_opt_8cpp.html#a68e9f015f4fc5adff9c023d7cfbb326b", null ],
+    [ "findWholeMarginalSupport", "helpers_opt_8cpp.html#adf1ba65910edf2b3519174299b01cd2d", null ]
 ];

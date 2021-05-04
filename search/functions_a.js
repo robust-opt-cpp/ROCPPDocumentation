@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['ldrcdrapproximator_1277',['LDRCDRApproximator',['../class_l_d_r_c_d_r_approximator.html#abdb58d3c18a02e8b9b5b4fa3c23e2723',1,'LDRCDRApproximator']]],
-  ['lhsexpression_1278',['LHSExpression',['../class_l_h_s_expression.html#a3109fe227c17e6f9bd70ebb2d4747304',1,'LHSExpression']]],
-  ['lineardecisionrule_1279',['LinearDecisionRule',['../class_linear_decision_rule.html#a1fcec73e37919397e6063d511ea59c08',1,'LinearDecisionRule::LinearDecisionRule(boost::shared_ptr&lt; uncContainer &gt; UC, uint memory=1000)'],['../class_linear_decision_rule.html#a3566d84298b700041066737d68190800',1,'LinearDecisionRule::LinearDecisionRule(uint memory=1000)']]],
-  ['linearize_1280',['linearize',['../class_bilinear_term_reformulator_i_f.html#a799e7be95a00d1522e42a3f26910aab8',1,'BilinearTermReformulatorIF::linearize()'],['../class_b_t_r__big_m.html#a443e7f10484e516feaef604e64a148ad',1,'BTR_bigM::linearize()']]],
-  ['loadresult_1281',['loadResult',['../_file_relations_8cpp.html#a56daeab661ee42ae9583fc8707a4b1dd',1,'loadResult(string folderName, string slnName, map&lt; string, double &gt; &amp;results):&#160;FileRelations.cpp'],['../_file_relations_8hpp.html#a56daeab661ee42ae9583fc8707a4b1dd',1,'loadResult(string folderName, string slnName, map&lt; string, double &gt; &amp;results):&#160;FileRelations.cpp']]]
+  ['lhsexpression_1186',['LHSExpression',['../class_l_h_s_expression.html#a3109fe227c17e6f9bd70ebb2d4747304',1,'LHSExpression']]],
+  ['lineardecisionrule_1187',['LinearDecisionRule',['../class_linear_decision_rule.html#a581579b4aa496b7d12c869ab0eaf97f1',1,'LinearDecisionRule::LinearDecisionRule(ROCPPuncContainer_Ptr UC, uint memory=1000, double bigM=100.)'],['../class_linear_decision_rule.html#ac1cafd50bdbee1491ebe6153f2224534',1,'LinearDecisionRule::LinearDecisionRule(uint memory=1000, double bigM=100.)']]],
+  ['linearize_1188',['linearize',['../class_bilinear_term_reformulator_i_f.html#a28b62a7e0146a51743b86e726f1d01bf',1,'BilinearTermReformulatorIF']]],
+  ['loadresult_1189',['loadResult',['../_file_relations_8cpp.html#a56daeab661ee42ae9583fc8707a4b1dd',1,'loadResult(string folderName, string slnName, map&lt; string, double &gt; &amp;results):&#160;FileRelations.cpp'],['../_file_relations_8hpp.html#a56daeab661ee42ae9583fc8707a4b1dd',1,'loadResult(string folderName, string slnName, map&lt; string, double &gt; &amp;results):&#160;FileRelations.cpp']]]
 ];

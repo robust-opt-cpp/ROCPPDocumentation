@@ -14,7 +14,7 @@ var classunc_container =
     [ "getNumUncertainties", "classunc_container.html#aaa5651a89595ecb7dbe87bb9275e129d", null ],
     [ "getObservableAlphabeticalLocation", "classunc_container.html#a77f3c2e73b56a4c2901236fc5682d2c4", null ],
     [ "isObservable", "classunc_container.html#a51e91bd91e3bb63e968e4533415a81ed", null ],
-    [ "operator+=", "classunc_container.html#afb348c0b7d7f7c365b1deb4076951ddd", null ],
+    [ "operator+=", "classunc_container.html#a91e4aacabe05225abc7b7ba375f4fd7d", null ],
     [ "operator+=", "classunc_container.html#a43f89fd797bd99ad61c3f06a95827787", null ],
     [ "m_ObsUncMap", "classunc_container.html#ad7644bd4f98d309a67a741d90bde9d7b", null ],
     [ "m_UncMap", "classunc_container.html#a595f3b9276a1fb0080b8d1d6e1d51aa3", null ]

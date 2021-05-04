@@ -10,26 +10,10 @@ var _decision_variable_8hpp =
     [ "AdaptVarInt", "class_adapt_var_int.html", "class_adapt_var_int" ],
     [ "AdaptVarDouble", "class_adapt_var_double.html", "class_adapt_var_double" ],
     [ "dvContainer", "classdv_container.html", "classdv_container" ],
-    [ "ROCPPAdaptVarBool", "_decision_variable_8hpp.html#a31442394f3d8850a51ff2b85e1452254", null ],
-    [ "ROCPPAdaptVarBool_Ptr", "_decision_variable_8hpp.html#aa85cf6b44c214e821dbdfc39dc76dbbe", null ],
-    [ "ROCPPAdaptVarInt", "_decision_variable_8hpp.html#a07622716433981dbdf81fb47602061a4", null ],
-    [ "ROCPPAdaptVarInt_Ptr", "_decision_variable_8hpp.html#a00095b9ad76ed2875e0d59264482df39", null ],
-    [ "ROCPPAdaptVarReal", "_decision_variable_8hpp.html#aaa6a131bdc38fa7c406dcaff82f935bd", null ],
-    [ "ROCPPAdaptVarReal_Ptr", "_decision_variable_8hpp.html#a7b3445f70e59c7a612d80fa31fd4cba6", null ],
-    [ "ROCPPStaticVarBool", "_decision_variable_8hpp.html#a53564e5bb3305fecd75a5db78b07b880", null ],
-    [ "ROCPPStaticVarBool_Ptr", "_decision_variable_8hpp.html#aa711e1933efbaa635f6bcd6a9447a63c", null ],
-    [ "ROCPPStaticVarIF", "_decision_variable_8hpp.html#a78bbfa190a139237a1926244f6278e88", null ],
-    [ "ROCPPStaticVarIF_Ptr", "_decision_variable_8hpp.html#a39cf66317fbeb9b0a7a080d2a6c522fc", null ],
-    [ "ROCPPStaticVarInt", "_decision_variable_8hpp.html#a1914928759715030170804f1b387b0e4", null ],
-    [ "ROCPPStaticVarInt_Ptr", "_decision_variable_8hpp.html#a48b4d29d7a17a9376819979068cbbd9f", null ],
-    [ "ROCPPStaticVarReal", "_decision_variable_8hpp.html#a94c2ac16e356af4121901051e15bff0e", null ],
-    [ "ROCPPStaticVarReal_Ptr", "_decision_variable_8hpp.html#a83ed39202362aeb54ff6119ababf9a87", null ],
-    [ "ROCPPVarIF", "_decision_variable_8hpp.html#a4c39a3ff5331205623301fc27282b2e6", null ],
-    [ "ROCPPVarIF_Ptr", "_decision_variable_8hpp.html#a9d70f918a1f649bfcc7c654ecf8bf2e6", null ],
     [ "decVariableType", "_decision_variable_8hpp.html#a78b84329975bd8d018140af8a9c0a165", [
       [ "intDV", "_decision_variable_8hpp.html#a78b84329975bd8d018140af8a9c0a165ad5cba195456a52fb3781d1d5475e2392", null ],
       [ "contDV", "_decision_variable_8hpp.html#a78b84329975bd8d018140af8a9c0a165a5d2a69482b5eaf682cf2a043ad7f6c96", null ],
       [ "boolDV", "_decision_variable_8hpp.html#a78b84329975bd8d018140af8a9c0a165a7ae5c0e0f6661c294bb28e0a1ab335c1", null ]
     ] ],
-    [ "createVariable", "_decision_variable_8hpp.html#a17a1f36a1167b37bd03e8b361b595b7a", null ]
+    [ "createVariable", "_decision_variable_8hpp.html#aa0cd90d5e904b3d7c669e28670e7e683", null ]
 ];
