@@ -1,8 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_constraint_i_f.html" title="Constraint interface class." alt="" coords="5,81,100,108"/>
+<area shape="rect" id="node1" href="$class_constraint_i_f.html" title="Constraint interface class." alt="" coords="5,31,100,57"/>
 <area shape="rect" id="node2" href="$class_classic_constraint_i_f.html" title="Classic constraint interface class." alt="" coords="148,31,287,57"/>
-<area shape="rect" id="node5" href="$class_if_then_constraint.html" title="If&#45;then constraint." alt="" coords="158,81,277,108"/>
-<area shape="rect" id="node6" href="$class_s_o_s_constraint.html" title="SOS constraint." alt="" coords="162,132,273,159"/>
 <area shape="rect" id="node3" href="$class_eq_constraint.html" title="Equality constraint." alt="" coords="339,5,437,32"/>
 <area shape="rect" id="node4" href="$class_ineq_constraint.html" title="Inequality constraint." alt="" coords="335,56,441,83"/>
 </map>

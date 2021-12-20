@@ -14,7 +14,7 @@ var dir_93bc287b1b715d8d43c8b797b654a00b =
     [ "IncludeFiles.hpp", "_include_files_8hpp.html", null ],
     [ "IndexSetCreator.hpp", "_index_set_creator_8hpp.html", "_index_set_creator_8hpp" ],
     [ "Interface.hpp", "_interface_8hpp.html", "_interface_8hpp" ],
-    [ "KADecisionRule.hpp", "_k_a_decision_rule_8hpp.html", "_k_a_decision_rule_8hpp" ],
+    [ "Kadaptability.hpp", "_kadaptability_8hpp.html", "_kadaptability_8hpp" ],
     [ "ObjectiveFunction.hpp", "_objective_function_8hpp.html", "_objective_function_8hpp" ],
     [ "OptimizationModel.hpp", "_optimization_model_8hpp.html", "_optimization_model_8hpp" ],
     [ "OptModelConverters.hpp", "_opt_model_converters_8hpp.html", "_opt_model_converters_8hpp" ],

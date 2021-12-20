@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="4.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ROC++
-   &#160;<span id="projectnumber">v1.0</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
    <div id="projectbrief">Automatic Robust Optimization in C++</div>
   </td>
@@ -193,7 +193,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a2a766815999352d16613aa87a2924b"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a9a2a766815999352d16613aa87a2924b">evaluate</a> (const map&lt; string, double &gt; &amp;valuesMap) const =0</td></tr>
 <tr class="memdesc:a9a2a766815999352d16613aa87a2924b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the value of this term.  <a href="class_constraint_term_i_f.html#a9a2a766815999352d16613aa87a2924b">More...</a><br /></td></tr>
 <tr class="separator:a9a2a766815999352d16613aa87a2924b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86943e0c7b0c98574d5a4c8e36276d94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a86943e0c7b0c98574d5a4c8e36276d94">getAllProductsOf2Variables</a> (map&lt; pair&lt; string, string &gt;, uint &gt; &amp;freqMap, map&lt; pair&lt; string, string &gt;, multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &gt; &amp;termMap) const =0</td></tr>
+<tr class="memitem:a86943e0c7b0c98574d5a4c8e36276d94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a86943e0c7b0c98574d5a4c8e36276d94">getAllProductsOf2Variables</a> (map&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;freqMap, map&lt; pair&lt; string, string &gt;, multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &gt; &amp;termMap) const =0</td></tr>
 <tr class="memdesc:a86943e0c7b0c98574d5a4c8e36276d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the products of any two variables in this term.  <a href="class_constraint_term_i_f.html#a86943e0c7b0c98574d5a4c8e36276d94">More...</a><br /></td></tr>
 <tr class="separator:a86943e0c7b0c98574d5a4c8e36276d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0abdc82c67249c25578191cdce6e8e7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#af0abdc82c67249c25578191cdce6e8e7">isProductTerm</a> () const</td></tr>
@@ -244,19 +244,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b8f5009cddd5765a6107db0c7ff8b21"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a1b8f5009cddd5765a6107db0c7ff8b21">getCoeff</a> () const</td></tr>
 <tr class="memdesc:a1b8f5009cddd5765a6107db0c7ff8b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the coefficient (a double type) of this object.  <a href="class_constraint_term_i_f.html#a1b8f5009cddd5765a6107db0c7ff8b21">More...</a><br /></td></tr>
 <tr class="separator:a1b8f5009cddd5765a6107db0c7ff8b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d0d0c549b3d98bec53a9f41ef1b8bd7"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a6d0d0c549b3d98bec53a9f41ef1b8bd7">getNumContVars</a> () const</td></tr>
+<tr class="memitem:a6d0d0c549b3d98bec53a9f41ef1b8bd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a6d0d0c549b3d98bec53a9f41ef1b8bd7">getNumContVars</a> () const</td></tr>
 <tr class="memdesc:a6d0d0c549b3d98bec53a9f41ef1b8bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of real-valued decision variables in this term.  <a href="class_constraint_term_i_f.html#a6d0d0c549b3d98bec53a9f41ef1b8bd7">More...</a><br /></td></tr>
 <tr class="separator:a6d0d0c549b3d98bec53a9f41ef1b8bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87d4613de8c33ef1721b1ae05d250a79"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a87d4613de8c33ef1721b1ae05d250a79">getNumIntVars</a> () const</td></tr>
+<tr class="memitem:a87d4613de8c33ef1721b1ae05d250a79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a87d4613de8c33ef1721b1ae05d250a79">getNumIntVars</a> () const</td></tr>
 <tr class="memdesc:a87d4613de8c33ef1721b1ae05d250a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of integer decision variables in this term.  <a href="class_constraint_term_i_f.html#a87d4613de8c33ef1721b1ae05d250a79">More...</a><br /></td></tr>
 <tr class="separator:a87d4613de8c33ef1721b1ae05d250a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ab8febcabe8756431d1cc808d7e1803"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a5ab8febcabe8756431d1cc808d7e1803">getNumBoolVars</a> () const</td></tr>
+<tr class="memitem:a5ab8febcabe8756431d1cc808d7e1803"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a5ab8febcabe8756431d1cc808d7e1803">getNumBoolVars</a> () const</td></tr>
 <tr class="memdesc:a5ab8febcabe8756431d1cc808d7e1803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of boolen decision variables in this term.  <a href="class_constraint_term_i_f.html#a5ab8febcabe8756431d1cc808d7e1803">More...</a><br /></td></tr>
 <tr class="separator:a5ab8febcabe8756431d1cc808d7e1803"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e72ae23ce798cfd6f149b796d0c45f4"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a9e72ae23ce798cfd6f149b796d0c45f4">getNumAdaptiveContVars</a> () const</td></tr>
+<tr class="memitem:a9e72ae23ce798cfd6f149b796d0c45f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a9e72ae23ce798cfd6f149b796d0c45f4">getNumAdaptiveContVars</a> () const</td></tr>
 <tr class="memdesc:a9e72ae23ce798cfd6f149b796d0c45f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of adaptive real-valued decision variables in this term.  <a href="class_constraint_term_i_f.html#a9e72ae23ce798cfd6f149b796d0c45f4">More...</a><br /></td></tr>
 <tr class="separator:a9e72ae23ce798cfd6f149b796d0c45f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5980388242761761f46373f7f289664a"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a5980388242761761f46373f7f289664a">getNumAdaptiveVars</a> () const</td></tr>
+<tr class="memitem:a5980388242761761f46373f7f289664a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a5980388242761761f46373f7f289664a">getNumAdaptiveVars</a> () const</td></tr>
 <tr class="memdesc:a5980388242761761f46373f7f289664a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of adaptive decision variables in this term.  <a href="class_constraint_term_i_f.html#a5980388242761761f46373f7f289664a">More...</a><br /></td></tr>
 <tr class="separator:a5980388242761761f46373f7f289664a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d92cf2edb527e9cedcceb6048d423cf"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a1d92cf2edb527e9cedcceb6048d423cf">getNumUncertainties</a> () const</td></tr>
@@ -268,7 +268,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac6cb1f345b366663934181249a16c7da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#ac6cb1f345b366663934181249a16c7da">allIntVarsBounded</a> () const</td></tr>
 <tr class="memdesc:ac6cb1f345b366663934181249a16c7da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if and only if all integer decision variables in this term are bounded.  <a href="class_constraint_term_i_f.html#ac6cb1f345b366663934181249a16c7da">More...</a><br /></td></tr>
 <tr class="separator:ac6cb1f345b366663934181249a16c7da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a034bd8cc06eb11d5ca7fa5883bc97f98"><td class="memItemLeft" align="right" valign="top">virtual uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a034bd8cc06eb11d5ca7fa5883bc97f98">getNumTimesTermAppears</a> (const multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;term) const =0</td></tr>
+<tr class="memitem:a034bd8cc06eb11d5ca7fa5883bc97f98"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#a034bd8cc06eb11d5ca7fa5883bc97f98">getNumTimesTermAppears</a> (const multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;term) const =0</td></tr>
 <tr class="memdesc:a034bd8cc06eb11d5ca7fa5883bc97f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of times the given term appears in this object.  <a href="class_constraint_term_i_f.html#a034bd8cc06eb11d5ca7fa5883bc97f98">More...</a><br /></td></tr>
 <tr class="separator:a034bd8cc06eb11d5ca7fa5883bc97f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ae2461da51cbf91409ee5bd0be2a59"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_header_include_files_8hpp.html#a72f5466e04118e8258faf7ac116d17e2">ROCPPCstrTermIF_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_term_i_f.html#ae8ae2461da51cbf91409ee5bd0be2a59">Clone</a> () const =0</td></tr>
@@ -579,7 +579,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void ConstraintTermIF::getAllProductsOf2Variables </td>
           <td>(</td>
-          <td class="paramtype">map&lt; pair&lt; string, string &gt;, uint &gt; &amp;&#160;</td>
+          <td class="paramtype">map&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>freqMap</em>, </td>
         </tr>
         <tr>
@@ -679,7 +679,7 @@ Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint ConstraintTermIF::getNumAdaptiveContVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ConstraintTermIF::getNumAdaptiveContVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -698,7 +698,7 @@ Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint ConstraintTermIF::getNumAdaptiveVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ConstraintTermIF::getNumAdaptiveVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -717,7 +717,7 @@ Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint ConstraintTermIF::getNumBoolVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ConstraintTermIF::getNumBoolVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -736,7 +736,7 @@ Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint ConstraintTermIF::getNumContVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ConstraintTermIF::getNumContVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -755,7 +755,7 @@ Protected Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint ConstraintTermIF::getNumIntVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ConstraintTermIF::getNumIntVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -777,7 +777,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual uint ConstraintTermIF::getNumTimesTermAppears </td>
+          <td class="memname">virtual <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ConstraintTermIF::getNumTimesTermAppears </td>
           <td>(</td>
           <td class="paramtype">const multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>term</em></td><td>)</td>

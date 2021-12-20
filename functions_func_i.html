@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="4.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ROC++
-   &#160;<span id="projectnumber">v1.0</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
    <div id="projectbrief">Automatic Robust Optimization in C++</div>
   </td>
@@ -97,14 +97,11 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 &#160;
 
 <h3><a id="index_i"></a>- i -</h3><ul>
-<li>IfThenConstraint()
-: <a class="el" href="class_if_then_constraint.html#a5aed7dae9b01048287fb98c867f8ec91">IfThenConstraint</a>
-</li>
 <li>IneqConstraint()
 : <a class="el" href="class_ineq_constraint.html#a91099d3ab8dd7848e43c5a96dcc44553">IneqConstraint</a>
 </li>
 <li>initialize()
-: <a class="el" href="class_kadaptability_decision_rule.html#af3b3f160b46931f7f8f5a2161ce28600">KadaptabilityDecisionRule</a>
+: <a class="el" href="class_kadaptability.html#af1e9710c6ba35a97169870e98d97c11b">Kadaptability</a>
 , <a class="el" href="class_piecewise_decision_rule.html#a7477bf89984750d079c6085f87187411">PiecewiseDecisionRule</a>
 </li>
 <li>is_same()
@@ -113,14 +110,16 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 , <a class="el" href="class_product_term.html#a81e7186b291133d3e39aad9632f83c96">ProductTerm</a>
 </li>
 <li>isAdaptive()
-: <a class="el" href="class_decision_variable_i_f.html#acfe0351bca283c108453b610db152fab">DecisionVariableIF</a>
+: <a class="el" href="class_adaptive_variable_i_f.html#ab259693a9470be7159b3f905e84eeb99">AdaptiveVariableIF</a>
+, <a class="el" href="class_decision_variable_i_f.html#a944ff1993dacf744e00dc0d1430f30da">DecisionVariableIF</a>
 , <a class="el" href="class_optimization_model_i_f.html#aba64683b4874f9efb1d93a02ac8ddb3e">OptimizationModelIF</a>
+, <a class="el" href="class_variable_i_f.html#ac6dc54b78323c8a1f903ee0e2d6acc67">VariableIF</a>
 </li>
 <li>isApplicable()
 : <a class="el" href="class_bilinear___m_ito_m_b___converter.html#a295eb7b521df647be08317a0a06196d0">Bilinear_MItoMB_Converter</a>
 , <a class="el" href="class_bilinear_term_reformulator_i_f.html#a4f58fffd945aaeed9af359d07564ac4a">BilinearTermReformulatorIF</a>
 , <a class="el" href="class_constant_decision_rule.html#a05e3fe2a9afb27f0a8c1bec2f8acf76c">ConstantDecisionRule</a>
-, <a class="el" href="class_kadaptability_decision_rule.html#afc71a2cc242c9303dd969f3d4e3e1886">KadaptabilityDecisionRule</a>
+, <a class="el" href="class_kadaptability.html#ac94d69a3ad04c74e16f7f587f6ea0f1c">Kadaptability</a>
 , <a class="el" href="class_linear_decision_rule.html#a563e32a72fc821d30a8ca92547122942">LinearDecisionRule</a>
 , <a class="el" href="class_piecewise_decision_rule.html#abfd52e98fd47b76168ce1e4e78949c03">PiecewiseDecisionRule</a>
 , <a class="el" href="class_reformulation_strategy_i_f.html#ad3a2fd50c0ca9000544f58d0e1e2be85">ReformulationStrategyIF</a>
@@ -130,8 +129,12 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 </li>
 <li>isBooleanVar()
 : <a class="el" href="class_adapt_var_bool.html#afb1cee756aaf605a1b272938cf7c2625">AdaptVarBool</a>
-, <a class="el" href="class_decision_variable_i_f.html#a0a448999a352adaa246a909f56f5e8fc">DecisionVariableIF</a>
+, <a class="el" href="class_adapt_var_double.html#af560b7a4f7da9c926f8a9bc7a30a6d2e">AdaptVarDouble</a>
+, <a class="el" href="class_adapt_var_int.html#a0f546349aa385fdf5b5ec0dcefc9a53f">AdaptVarInt</a>
+, <a class="el" href="class_decision_variable_i_f.html#ab79408fe77f9695463f60e5aa6b40338">DecisionVariableIF</a>
 , <a class="el" href="class_variable_bool.html#a9c472c24211976fafcf7d550f44f9747">VariableBool</a>
+, <a class="el" href="class_variable_double.html#a56c3d25bf5da8426bed113aa77dc2e62">VariableDouble</a>
+, <a class="el" href="class_variable_int.html#ac1b94d73ee5e156d3b9fb207cef1360f">VariableInt</a>
 </li>
 <li>isClassicConstraint()
 : <a class="el" href="class_classic_constraint_i_f.html#a2198eaa0133ff8da2c68729160aa008c">ClassicConstraintIF</a>
@@ -162,14 +165,17 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 </li>
 <li>isIfThenConstraint()
 : <a class="el" href="class_constraint_i_f.html#a6938c33d6d974c0223485fa0bf8e86ba">ConstraintIF</a>
-, <a class="el" href="class_if_then_constraint.html#ad83e1a2bb94dadc39d44fab6f1a19c53">IfThenConstraint</a>
 </li>
 <li>isInStandardForm()
 : <a class="el" href="class_optimization_model_i_f.html#a9c555f953d9712017c31d79e5405aa67">OptimizationModelIF</a>
 </li>
 <li>isIntegerVar()
-: <a class="el" href="class_adapt_var_int.html#a255082dd5fd821930a0733255349aa24">AdaptVarInt</a>
-, <a class="el" href="class_decision_variable_i_f.html#a9f4acb9b256087c7447d4b9a5e14d6a4">DecisionVariableIF</a>
+: <a class="el" href="class_adapt_var_bool.html#ab83f287db578a858e206efd1bcc9ec35">AdaptVarBool</a>
+, <a class="el" href="class_adapt_var_double.html#a2e024e2ddef467426304cc0d1dda90f1">AdaptVarDouble</a>
+, <a class="el" href="class_adapt_var_int.html#a255082dd5fd821930a0733255349aa24">AdaptVarInt</a>
+, <a class="el" href="class_decision_variable_i_f.html#a5ada05e925d8eca587328809c415d186">DecisionVariableIF</a>
+, <a class="el" href="class_variable_bool.html#a6393d080586c73b4f441def13ac57baf">VariableBool</a>
+, <a class="el" href="class_variable_double.html#a02a9d02bde88d1498b238883811015ef">VariableDouble</a>
 , <a class="el" href="class_variable_int.html#ab27613967153a42142c8f60145706ca3">VariableInt</a>
 </li>
 <li>isLinear()
@@ -216,9 +222,13 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 , <a class="el" href="class_product_term.html#a5b2bdeac1188f1cb9a2ed2ad35eece06">ProductTerm</a>
 </li>
 <li>isRealVar()
-: <a class="el" href="class_adapt_var_double.html#a4c647e8415e4feacaad092e2fca579f4">AdaptVarDouble</a>
-, <a class="el" href="class_decision_variable_i_f.html#a4141e6264933771a5cdd83d18b3a32a3">DecisionVariableIF</a>
+: <a class="el" href="class_adapt_var_bool.html#ad921acd8471cd9d8f98e7874238b89c1">AdaptVarBool</a>
+, <a class="el" href="class_adapt_var_double.html#a4c647e8415e4feacaad092e2fca579f4">AdaptVarDouble</a>
+, <a class="el" href="class_adapt_var_int.html#a99be129ba23b8b1364a21c2d2593207e">AdaptVarInt</a>
+, <a class="el" href="class_decision_variable_i_f.html#a7df96671651048c498bee7a2f8059049">DecisionVariableIF</a>
+, <a class="el" href="class_variable_bool.html#a9ce78616402233697bd920e678cd1a7c">VariableBool</a>
 , <a class="el" href="class_variable_double.html#ab4dd958fc3665ebfd7cea6306298ecf1">VariableDouble</a>
+, <a class="el" href="class_variable_int.html#a105f209b53f4119ddf2221a7f8946d4f">VariableInt</a>
 </li>
 <li>isSimpleObjective()
 : <a class="el" href="class_objective_function_i_f.html#a477832b7c7538995fb7b075b399e117a">ObjectiveFunctionIF</a>
@@ -226,7 +236,6 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 </li>
 <li>isSOSConstraint()
 : <a class="el" href="class_constraint_i_f.html#a04f3089b4a41fbffc8568d929c922390">ConstraintIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#a1e34e8fdf00977060ee5e3c9f26d84a5">SOSConstraint</a>
 </li>
 <li>isUncertainOptimizationModel()
 : <a class="el" href="class_optimization_model_i_f.html#a0141fc99f4c2d746997a738533a8668c">OptimizationModelIF</a>
@@ -240,11 +249,9 @@ $(document).ready(function(){initNavTree('functions_func_i.html',''); initResiza
 : <a class="el" href="class_classic_constraint_i_f.html#a8e59e5ea6231a20e34eb01789a8946b7">ClassicConstraintIF</a>
 , <a class="el" href="class_constraint_i_f.html#affc2dd04d83d418d1bd54037c3fa4751">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a9a572254c0118507db59d423e5e0de74">ConstraintTermIF</a>
-, <a class="el" href="class_if_then_constraint.html#ad5c251e35382eb1d8c2e96602dfe1950">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a79ee61956fdd429db0f38edab86add08">LHSExpression</a>
 , <a class="el" href="class_norm_term.html#aa808f64e8289912e0e0fb33165dab34a">NormTerm</a>
 , <a class="el" href="class_product_term.html#a132f361edb72db5d7fd51da741130de1">ProductTerm</a>
-, <a class="el" href="class_s_o_s_constraint.html#a9fe8eabf67ca85a18ba62688c2c8371f">SOSConstraint</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="4.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ROC++
-   &#160;<span id="projectnumber">v1.0</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
    <div id="projectbrief">Automatic Robust Optimization in C++</div>
   </td>
@@ -126,9 +126,9 @@ Inheritance diagram for DecisionVariableIF:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7314f9c2b7c1343b736fa3ce415e2a2d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a7314f9c2b7c1343b736fa3ce415e2a2d">DecisionVariableIF</a> (string name, <a class="el" href="_decision_variable_8hpp.html#a78b84329975bd8d018140af8a9c0a165">decVariableType</a> type, double lb, double ub, bool <a class="el" href="class_decision_variable_i_f.html#acfe0351bca283c108453b610db152fab">isAdaptive</a>=false, uint timeStage=1)</td></tr>
-<tr class="memdesc:a7314f9c2b7c1343b736fa3ce415e2a2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the <a class="el" href="class_decision_variable_i_f.html" title="Decision variable interface class.">DecisionVariableIF</a> class.  <a href="class_decision_variable_i_f.html#a7314f9c2b7c1343b736fa3ce415e2a2d">More...</a><br /></td></tr>
-<tr class="separator:a7314f9c2b7c1343b736fa3ce415e2a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c026acaf32795fb007b97ac0406fbbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a2c026acaf32795fb007b97ac0406fbbb">DecisionVariableIF</a> (string name, <a class="el" href="_decision_variable_8hpp.html#a78b84329975bd8d018140af8a9c0a165">decVariableType</a> type, double lb, double ub)</td></tr>
+<tr class="memdesc:a2c026acaf32795fb007b97ac0406fbbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the <a class="el" href="class_decision_variable_i_f.html" title="Decision variable interface class.">DecisionVariableIF</a> class.  <a href="class_decision_variable_i_f.html#a2c026acaf32795fb007b97ac0406fbbb">More...</a><br /></td></tr>
+<tr class="separator:a2c026acaf32795fb007b97ac0406fbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a894f586f9119fdbf85e33c89b73346e2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a894f586f9119fdbf85e33c89b73346e2">~DecisionVariableIF</a> ()</td></tr>
 <tr class="memdesc:a894f586f9119fdbf85e33c89b73346e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the <a class="el" href="class_decision_variable_i_f.html" title="Decision variable interface class.">DecisionVariableIF</a> class.  <a href="class_decision_variable_i_f.html#a894f586f9119fdbf85e33c89b73346e2">More...</a><br /></td></tr>
 <tr class="separator:a894f586f9119fdbf85e33c89b73346e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,21 +138,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acc3aed1861c08eef79fbf7d273c50fa9"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#acc3aed1861c08eef79fbf7d273c50fa9">getName</a> () const</td></tr>
 <tr class="memdesc:acc3aed1861c08eef79fbf7d273c50fa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of the decision variable.  <a href="class_decision_variable_i_f.html#acc3aed1861c08eef79fbf7d273c50fa9">More...</a><br /></td></tr>
 <tr class="separator:acc3aed1861c08eef79fbf7d273c50fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35cb97481f9a7757ce422f06cb45a9bd"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a35cb97481f9a7757ce422f06cb45a9bd">getTimeStage</a> () const</td></tr>
-<tr class="memdesc:a35cb97481f9a7757ce422f06cb45a9bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the time-stage when the decision is made.  <a href="class_decision_variable_i_f.html#a35cb97481f9a7757ce422f06cb45a9bd">More...</a><br /></td></tr>
-<tr class="separator:a35cb97481f9a7757ce422f06cb45a9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfe0351bca283c108453b610db152fab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#acfe0351bca283c108453b610db152fab">isAdaptive</a> () const</td></tr>
-<tr class="memdesc:acfe0351bca283c108453b610db152fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return indicator of adaptability, return value equals true if and only if the decision variable can adapt to the history of observations.  <a href="class_decision_variable_i_f.html#acfe0351bca283c108453b610db152fab">More...</a><br /></td></tr>
-<tr class="separator:acfe0351bca283c108453b610db152fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a448999a352adaa246a909f56f5e8fc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a0a448999a352adaa246a909f56f5e8fc">isBooleanVar</a> () const</td></tr>
-<tr class="memdesc:a0a448999a352adaa246a909f56f5e8fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if and only if the decision variable is of boolean type.  <a href="class_decision_variable_i_f.html#a0a448999a352adaa246a909f56f5e8fc">More...</a><br /></td></tr>
-<tr class="separator:a0a448999a352adaa246a909f56f5e8fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4acb9b256087c7447d4b9a5e14d6a4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a9f4acb9b256087c7447d4b9a5e14d6a4">isIntegerVar</a> () const</td></tr>
-<tr class="memdesc:a9f4acb9b256087c7447d4b9a5e14d6a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if and only if the decision variable is of integer type.  <a href="class_decision_variable_i_f.html#a9f4acb9b256087c7447d4b9a5e14d6a4">More...</a><br /></td></tr>
-<tr class="separator:a9f4acb9b256087c7447d4b9a5e14d6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4141e6264933771a5cdd83d18b3a32a3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a4141e6264933771a5cdd83d18b3a32a3">isRealVar</a> () const</td></tr>
-<tr class="memdesc:a4141e6264933771a5cdd83d18b3a32a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if and only if the decision variable is of real-valued type.  <a href="class_decision_variable_i_f.html#a4141e6264933771a5cdd83d18b3a32a3">More...</a><br /></td></tr>
-<tr class="separator:a4141e6264933771a5cdd83d18b3a32a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc7c9018aa8156884d5e955dc915b89"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#addc7c9018aa8156884d5e955dc915b89">getTimeStage</a> () const =0</td></tr>
+<tr class="memdesc:addc7c9018aa8156884d5e955dc915b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the time-stage when the decision is made.  <a href="class_decision_variable_i_f.html#addc7c9018aa8156884d5e955dc915b89">More...</a><br /></td></tr>
+<tr class="separator:addc7c9018aa8156884d5e955dc915b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944ff1993dacf744e00dc0d1430f30da"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a944ff1993dacf744e00dc0d1430f30da">isAdaptive</a> () const =0</td></tr>
+<tr class="memdesc:a944ff1993dacf744e00dc0d1430f30da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return indicator of adaptability, return value equals true if and only if the decision variable can adapt to the history of observations.  <a href="class_decision_variable_i_f.html#a944ff1993dacf744e00dc0d1430f30da">More...</a><br /></td></tr>
+<tr class="separator:a944ff1993dacf744e00dc0d1430f30da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79408fe77f9695463f60e5aa6b40338"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#ab79408fe77f9695463f60e5aa6b40338">isBooleanVar</a> () const =0</td></tr>
+<tr class="memdesc:ab79408fe77f9695463f60e5aa6b40338"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if and only if the decision variable is of boolean type.  <a href="class_decision_variable_i_f.html#ab79408fe77f9695463f60e5aa6b40338">More...</a><br /></td></tr>
+<tr class="separator:ab79408fe77f9695463f60e5aa6b40338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ada05e925d8eca587328809c415d186"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a5ada05e925d8eca587328809c415d186">isIntegerVar</a> () const =0</td></tr>
+<tr class="memdesc:a5ada05e925d8eca587328809c415d186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if and only if the decision variable is of integer type.  <a href="class_decision_variable_i_f.html#a5ada05e925d8eca587328809c415d186">More...</a><br /></td></tr>
+<tr class="separator:a5ada05e925d8eca587328809c415d186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df96671651048c498bee7a2f8059049"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a7df96671651048c498bee7a2f8059049">isRealVar</a> () const =0</td></tr>
+<tr class="memdesc:a7df96671651048c498bee7a2f8059049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if and only if the decision variable is of real-valued type.  <a href="class_decision_variable_i_f.html#a7df96671651048c498bee7a2f8059049">More...</a><br /></td></tr>
+<tr class="separator:a7df96671651048c498bee7a2f8059049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3045b37c14b34f7665fb8c4405fe6de2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a3045b37c14b34f7665fb8c4405fe6de2">getLB</a> () const</td></tr>
 <tr class="memdesc:a3045b37c14b34f7665fb8c4405fe6de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the lower bound of the decision variable.  <a href="class_decision_variable_i_f.html#a3045b37c14b34f7665fb8c4405fe6de2">More...</a><br /></td></tr>
 <tr class="separator:a3045b37c14b34f7665fb8c4405fe6de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,12 +183,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a1074a757732ae897302c1c26d39b6054"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="_decision_variable_8hpp.html#a78b84329975bd8d018140af8a9c0a165">decVariableType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a1074a757732ae897302c1c26d39b6054">m_type</a></td></tr>
 <tr class="memdesc:a1074a757732ae897302c1c26d39b6054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the decision variable.  <a href="class_decision_variable_i_f.html#a1074a757732ae897302c1c26d39b6054">More...</a><br /></td></tr>
 <tr class="separator:a1074a757732ae897302c1c26d39b6054"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a709f683416bb1b7a1b8baf631ae36f47"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a709f683416bb1b7a1b8baf631ae36f47">m_isAdaptive</a></td></tr>
-<tr class="memdesc:a709f683416bb1b7a1b8baf631ae36f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicator of adaptability: true if and only if the decision variable can adapt to the history of observations.  <a href="class_decision_variable_i_f.html#a709f683416bb1b7a1b8baf631ae36f47">More...</a><br /></td></tr>
-<tr class="separator:a709f683416bb1b7a1b8baf631ae36f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8da39faaee471f0fc8c7b7e06b43ad3b"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a8da39faaee471f0fc8c7b7e06b43ad3b">m_timeStage</a></td></tr>
-<tr class="memdesc:a8da39faaee471f0fc8c7b7e06b43ad3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time-stage of the decision variable.  <a href="class_decision_variable_i_f.html#a8da39faaee471f0fc8c7b7e06b43ad3b">More...</a><br /></td></tr>
-<tr class="separator:a8da39faaee471f0fc8c7b7e06b43ad3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e513e8415482debd9f48cc10f727a35"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_variable_i_f.html#a9e513e8415482debd9f48cc10f727a35">m_lb</a></td></tr>
 <tr class="memdesc:a9e513e8415482debd9f48cc10f727a35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower bound of the decision variable.  <a href="class_decision_variable_i_f.html#a9e513e8415482debd9f48cc10f727a35">More...</a><br /></td></tr>
 <tr class="separator:a9e513e8415482debd9f48cc10f727a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,8 +193,8 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Decision variable interface class. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7314f9c2b7c1343b736fa3ce415e2a2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7314f9c2b7c1343b736fa3ce415e2a2d">&#9670;&nbsp;</a></span>DecisionVariableIF()</h2>
+<a id="a2c026acaf32795fb007b97ac0406fbbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c026acaf32795fb007b97ac0406fbbb">&#9670;&nbsp;</a></span>DecisionVariableIF()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,19 +221,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ub</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isAdaptive</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint&#160;</td>
-          <td class="paramname"><em>timeStage</em> = <code>1</code>&#160;</td>
+          <td class="paramname"><em>ub</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -256,8 +238,6 @@ Private Attributes</h2></td></tr>
     <tr><td class="paramname">type</td><td>type of the decision variable </td></tr>
     <tr><td class="paramname">lb</td><td>lower bound of the variable </td></tr>
     <tr><td class="paramname">ub</td><td>upper bound of the variable </td></tr>
-    <tr><td class="paramname">isAdaptive</td><td>is true if and only if the decision variable can adapt to the history of observations </td></tr>
-    <tr><td class="paramname">timeStage</td><td>time-stage when the decision is made </td></tr>
   </table>
   </dd>
 </dl>
@@ -378,8 +358,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a35cb97481f9a7757ce422f06cb45a9bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35cb97481f9a7757ce422f06cb45a9bd">&#9670;&nbsp;</a></span>getTimeStage()</h2>
+<a id="addc7c9018aa8156884d5e955dc915b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addc7c9018aa8156884d5e955dc915b89">&#9670;&nbsp;</a></span>getTimeStage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,7 +368,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint DecisionVariableIF::getTimeStage </td>
+          <td class="memname">virtual <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> DecisionVariableIF::getTimeStage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -396,7 +376,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -404,6 +384,8 @@ Private Attributes</h2></td></tr>
 <p>Return the time-stage when the decision is made. </p>
 <dl class="section return"><dt>Returns</dt><dd>time-stage, uint type</dd></dl>
 <p>An adaptive decision taken at time-stage t can depend on all uncertain parameters revealed up to and including time t </p>
+
+<p>Implemented in <a class="el" href="class_adaptive_variable_i_f.html#af0395756ce7b60f07db8251b8b974178">AdaptiveVariableIF</a>, and <a class="el" href="class_variable_i_f.html#a2933b28857a6e3c524caf610811aa6ef">VariableIF</a>.</p>
 
 </div>
 </div>
@@ -463,8 +445,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acfe0351bca283c108453b610db152fab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfe0351bca283c108453b610db152fab">&#9670;&nbsp;</a></span>isAdaptive()</h2>
+<a id="a944ff1993dacf744e00dc0d1430f30da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a944ff1993dacf744e00dc0d1430f30da">&#9670;&nbsp;</a></span>isAdaptive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -473,7 +455,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool DecisionVariableIF::isAdaptive </td>
+          <td class="memname">virtual bool DecisionVariableIF::isAdaptive </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -481,7 +463,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -489,10 +471,12 @@ Private Attributes</h2></td></tr>
 <p>Return indicator of adaptability, return value equals true if and only if the decision variable can adapt to the history of observations. </p>
 <dl class="section return"><dt>Returns</dt><dd>adaptability indicator, boolean type </dd></dl>
 
+<p>Implemented in <a class="el" href="class_adaptive_variable_i_f.html#ab259693a9470be7159b3f905e84eeb99">AdaptiveVariableIF</a>, and <a class="el" href="class_variable_i_f.html#ac6dc54b78323c8a1f903ee0e2d6acc67">VariableIF</a>.</p>
+
 </div>
 </div>
-<a id="a0a448999a352adaa246a909f56f5e8fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a448999a352adaa246a909f56f5e8fc">&#9670;&nbsp;</a></span>isBooleanVar()</h2>
+<a id="ab79408fe77f9695463f60e5aa6b40338"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab79408fe77f9695463f60e5aa6b40338">&#9670;&nbsp;</a></span>isBooleanVar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,19 +493,19 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Return true if and only if the decision variable is of boolean type. </p>
 
-<p>Reimplemented in <a class="el" href="class_adapt_var_bool.html#afb1cee756aaf605a1b272938cf7c2625">AdaptVarBool</a>, and <a class="el" href="class_variable_bool.html#a9c472c24211976fafcf7d550f44f9747">VariableBool</a>.</p>
+<p>Implemented in <a class="el" href="class_adapt_var_double.html#af560b7a4f7da9c926f8a9bc7a30a6d2e">AdaptVarDouble</a>, <a class="el" href="class_adapt_var_int.html#a0f546349aa385fdf5b5ec0dcefc9a53f">AdaptVarInt</a>, <a class="el" href="class_adapt_var_bool.html#afb1cee756aaf605a1b272938cf7c2625">AdaptVarBool</a>, <a class="el" href="class_variable_double.html#a56c3d25bf5da8426bed113aa77dc2e62">VariableDouble</a>, <a class="el" href="class_variable_int.html#ac1b94d73ee5e156d3b9fb207cef1360f">VariableInt</a>, and <a class="el" href="class_variable_bool.html#a9c472c24211976fafcf7d550f44f9747">VariableBool</a>.</p>
 
 </div>
 </div>
-<a id="a9f4acb9b256087c7447d4b9a5e14d6a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f4acb9b256087c7447d4b9a5e14d6a4">&#9670;&nbsp;</a></span>isIntegerVar()</h2>
+<a id="a5ada05e925d8eca587328809c415d186"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ada05e925d8eca587328809c415d186">&#9670;&nbsp;</a></span>isIntegerVar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -538,19 +522,19 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Return true if and only if the decision variable is of integer type. </p>
 
-<p>Reimplemented in <a class="el" href="class_adapt_var_int.html#a255082dd5fd821930a0733255349aa24">AdaptVarInt</a>, and <a class="el" href="class_variable_int.html#ab27613967153a42142c8f60145706ca3">VariableInt</a>.</p>
+<p>Implemented in <a class="el" href="class_adapt_var_double.html#a2e024e2ddef467426304cc0d1dda90f1">AdaptVarDouble</a>, <a class="el" href="class_adapt_var_int.html#a255082dd5fd821930a0733255349aa24">AdaptVarInt</a>, <a class="el" href="class_adapt_var_bool.html#ab83f287db578a858e206efd1bcc9ec35">AdaptVarBool</a>, <a class="el" href="class_variable_double.html#a02a9d02bde88d1498b238883811015ef">VariableDouble</a>, <a class="el" href="class_variable_int.html#ab27613967153a42142c8f60145706ca3">VariableInt</a>, and <a class="el" href="class_variable_bool.html#a6393d080586c73b4f441def13ac57baf">VariableBool</a>.</p>
 
 </div>
 </div>
-<a id="a4141e6264933771a5cdd83d18b3a32a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4141e6264933771a5cdd83d18b3a32a3">&#9670;&nbsp;</a></span>isRealVar()</h2>
+<a id="a7df96671651048c498bee7a2f8059049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df96671651048c498bee7a2f8059049">&#9670;&nbsp;</a></span>isRealVar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -567,14 +551,14 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Return true if and only if the decision variable is of real-valued type. </p>
 
-<p>Reimplemented in <a class="el" href="class_adapt_var_double.html#a4c647e8415e4feacaad092e2fca579f4">AdaptVarDouble</a>, and <a class="el" href="class_variable_double.html#ab4dd958fc3665ebfd7cea6306298ecf1">VariableDouble</a>.</p>
+<p>Implemented in <a class="el" href="class_adapt_var_double.html#a4c647e8415e4feacaad092e2fca579f4">AdaptVarDouble</a>, <a class="el" href="class_adapt_var_int.html#a99be129ba23b8b1364a21c2d2593207e">AdaptVarInt</a>, <a class="el" href="class_adapt_var_bool.html#ad921acd8471cd9d8f98e7874238b89c1">AdaptVarBool</a>, <a class="el" href="class_variable_double.html#ab4dd958fc3665ebfd7cea6306298ecf1">VariableDouble</a>, <a class="el" href="class_variable_int.html#a105f209b53f4119ddf2221a7f8946d4f">VariableInt</a>, and <a class="el" href="class_variable_bool.html#a9ce78616402233697bd920e678cd1a7c">VariableBool</a>.</p>
 
 </div>
 </div>
@@ -679,30 +663,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a709f683416bb1b7a1b8baf631ae36f47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a709f683416bb1b7a1b8baf631ae36f47">&#9670;&nbsp;</a></span>m_isAdaptive</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const bool DecisionVariableIF::m_isAdaptive</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Indicator of adaptability: true if and only if the decision variable can adapt to the history of observations. </p>
-
-</div>
-</div>
 <a id="a9e513e8415482debd9f48cc10f727a35"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e513e8415482debd9f48cc10f727a35">&#9670;&nbsp;</a></span>m_lb</h2>
 
@@ -748,30 +708,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Name of the decision variable. </p>
-
-</div>
-</div>
-<a id="a8da39faaee471f0fc8c7b7e06b43ad3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8da39faaee471f0fc8c7b7e06b43ad3b">&#9670;&nbsp;</a></span>m_timeStage</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint DecisionVariableIF::m_timeStage</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Time-stage of the decision variable. </p>
 
 </div>
 </div>

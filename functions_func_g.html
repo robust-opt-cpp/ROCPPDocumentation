@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="4.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ROC++
-   &#160;<span id="projectnumber">v1.0</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
    <div id="projectbrief">Automatic Robust Optimization in C++</div>
   </td>
@@ -97,23 +97,17 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 &#160;
 
 <h3><a id="index_g"></a>- g -</h3><ul>
-<li>get_lhs()
-: <a class="el" href="class_if_then_constraint.html#adf8e0c5656436abeeeaace3443f1a33f">IfThenConstraint</a>
-</li>
 <li>get_rhs()
 : <a class="el" href="class_classic_constraint_i_f.html#a5f619062c74c134ca85ea3517bafce91">ClassicConstraintIF</a>
-, <a class="el" href="class_if_then_constraint.html#aa18780bc9afdeceef180aee24b6161ac">IfThenConstraint</a>
 </li>
 <li>getAllProductsOf2Variables()
 : <a class="el" href="class_classic_constraint_i_f.html#a7c25ff46b49db441b06b8c4b864d1c58">ClassicConstraintIF</a>
 , <a class="el" href="class_constraint_i_f.html#a7190ea13a54d89936c712c4b3e614826">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a86943e0c7b0c98574d5a4c8e36276d94">ConstraintTermIF</a>
-, <a class="el" href="class_if_then_constraint.html#a7b0169f0a6c70fb83334b9f7a3738847">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a6697bfa8499204dd6779adc2aaec5b18">LHSExpression</a>
 , <a class="el" href="class_norm_term.html#af2f76b597e7d27eff643290b13372879">NormTerm</a>
 , <a class="el" href="class_optimization_model_i_f.html#a1d52a44debcd152eb7b21ee5fb311552">OptimizationModelIF</a>
 , <a class="el" href="class_product_term.html#ad319de98ac344cf6c612af9de270d8ca">ProductTerm</a>
-, <a class="el" href="class_s_o_s_constraint.html#aef35f90ef36a13e3e25dee3a06685134">SOSConstraint</a>
 </li>
 <li>getAlphabeticalLocation()
 : <a class="el" href="classunc_container.html#a7248db0d39a3e1935b30c4f4886d866d">uncContainer</a>
@@ -169,13 +163,11 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="class_classic_constraint_i_f.html#a21035a8a5dffaceb30ea9fc67cd12504">ClassicConstraintIF</a>
 , <a class="el" href="class_constraint_i_f.html#ac94343a1779bf369350c5ddc41374c4f">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a15dd12efb503d4eac53274ce83bf78ce">ConstraintTermIF</a>
-, <a class="el" href="class_if_then_constraint.html#a01347a20552b939b4dcb7771af6292c4">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a9adb6929c2ab18c07288f37dc27aa369">LHSExpression</a>
 , <a class="el" href="class_optimization_model_i_f.html#ad4f670cbef52929ec2ea02cb0d30f215">OptimizationModelIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#a7ffdb7e15d2dc5fc00674daabf4d7e1a">SOSConstraint</a>
 </li>
 <li>getDVonPartition()
-: <a class="el" href="class_kadaptability_decision_rule.html#a6fe52234dff9a2141da62350160b99c8">KadaptabilityDecisionRule</a>
+: <a class="el" href="class_kadaptability.html#a662a1ab409a391504c81e26ced956ebc">Kadaptability</a>
 </li>
 <li>getEpAGapLimit()
 : <a class="el" href="class_solver_modeller_i_f.html#ac1de978ca23faf55611d6d9acd4059c0">SolverModellerIF</a>
@@ -261,7 +253,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="class_bilinear_term_reformulator_i_f.html#a508fbb184936d0321b19ed16b6e395cf">BilinearTermReformulatorIF</a>
 , <a class="el" href="class_constant_decision_rule.html#ab4dc0470f09d6b2a2181d6142e15b2f2">ConstantDecisionRule</a>
 , <a class="el" href="class_decision_variable_i_f.html#acc3aed1861c08eef79fbf7d273c50fa9">DecisionVariableIF</a>
-, <a class="el" href="class_kadaptability_decision_rule.html#a0898caa59bc4bbf500baca0cd75dcfc3">KadaptabilityDecisionRule</a>
+, <a class="el" href="class_kadaptability.html#a460a8792af5b0fc17edc04527364e477">Kadaptability</a>
 , <a class="el" href="class_linear_decision_rule.html#a5c4b0a0ce5c1c913af1d632c93a057c3">LinearDecisionRule</a>
 , <a class="el" href="class_piecewise_decision_rule.html#a30d206c1beeea1eb80675e465da79934">PiecewiseDecisionRule</a>
 , <a class="el" href="class_reformulation_strategy_i_f.html#ae0c00d30fce3e0ffc277d935e23c6da7">ReformulationStrategyIF</a>
@@ -284,23 +276,19 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="class_constraint_i_f.html#a3573a3b5f3bb1cd783ec53be4d0c8424">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a9e72ae23ce798cfd6f149b796d0c45f4">ConstraintTermIF</a>
 , <a class="el" href="classdv_container.html#a35531a682a7e270d50bdd7caad6d6a02">dvContainer</a>
-, <a class="el" href="class_if_then_constraint.html#a03ccb69b6d0fb571408b52c43755722a">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a6075e81ddcfca534ad220288758c2eed">LHSExpression</a>
 , <a class="el" href="class_optimization_model_i_f.html#ab4a2f280192cd6c79a404a4d23dc5c17">OptimizationModelIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#acea827344507ce287508ceb7f47bcfd2">SOSConstraint</a>
 </li>
 <li>getNumAdaptiveVars()
 : <a class="el" href="class_classic_constraint_i_f.html#a243dfe875f2d846c3d0c5605a568aae5">ClassicConstraintIF</a>
 , <a class="el" href="class_constraint_i_f.html#af7f67daa6181ace240cc8335b93086fc">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a5980388242761761f46373f7f289664a">ConstraintTermIF</a>
 , <a class="el" href="classdv_container.html#a5a3ab715de7c9b48b11cbf3d0239934b">dvContainer</a>
-, <a class="el" href="class_if_then_constraint.html#a65afecab7335d02cf42860b7e9011acc">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#ae6593b6045daca9c6d5dd2e61bc4ee59">LHSExpression</a>
 , <a class="el" href="class_max_objective.html#a05cd6520684765baaea7555b5b8f8d29">MaxObjective</a>
 , <a class="el" href="class_objective_function_i_f.html#a74dfa6d26aecd2470b74e97c1b9ae564">ObjectiveFunctionIF</a>
 , <a class="el" href="class_optimization_model_i_f.html#a3b84c80f1fdbfa14fc1c05e8571c936f">OptimizationModelIF</a>
 , <a class="el" href="class_simple_objective.html#a41070ea11fccccedb9947d55cb528c2f">SimpleObjective</a>
-, <a class="el" href="class_s_o_s_constraint.html#a2ae65740564b12dc45efe6153b500543">SOSConstraint</a>
 </li>
 <li>getNumBitsPerVar()
 : <a class="el" href="class_real_var_discretizer.html#ab9bbf300e335534dc3425022ea29051f">RealVarDiscretizer</a>
@@ -310,10 +298,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="class_constraint_i_f.html#a67e2855bc781e43c2a1a5a1c703db5a4">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a5ab8febcabe8756431d1cc808d7e1803">ConstraintTermIF</a>
 , <a class="el" href="classdv_container.html#a4231ba5cef13a966d26baadd3e12b482">dvContainer</a>
-, <a class="el" href="class_if_then_constraint.html#a087855937dd29dda59ff1d18e663c5d0">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#acc52392d4460d41cc59bb112aa37688a">LHSExpression</a>
 , <a class="el" href="class_optimization_model_i_f.html#add7f85d9eaf38d6182da9a99476f1881">OptimizationModelIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#ae61b4b624d3690eef0dcb60b2a7f2d74">SOSConstraint</a>
 </li>
 <li>getNumConstraints()
 : <a class="el" href="class_optimization_model_i_f.html#a7ea803bd239e9f7503145045305e601e">OptimizationModelIF</a>
@@ -323,10 +309,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="class_constraint_i_f.html#a7e272fc45b97e1c6b6e1a09aae76820a">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a6d0d0c549b3d98bec53a9f41ef1b8bd7">ConstraintTermIF</a>
 , <a class="el" href="classdv_container.html#ad2c6e14058bcec2ae10216ada419a023">dvContainer</a>
-, <a class="el" href="class_if_then_constraint.html#aaa309a9e8771bd4bcb86bb9b2bda5673">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#ad96205cae22d9c145157195c29724a44">LHSExpression</a>
 , <a class="el" href="class_optimization_model_i_f.html#ac26135c2217ac86c6eeac64684f7725e">OptimizationModelIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#ac2366cb303e6e02829728c68ffa9867e">SOSConstraint</a>
 </li>
 <li>getNumDDUncertainties()
 : <a class="el" href="class_multi_stage_opt_model_d_d_i_d.html#a4cd31a58c98c4cbf180cc424b036c05e">MultiStageOptModelDDID</a>
@@ -339,10 +323,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="class_constraint_i_f.html#a439ca448387a78fa94fd21cb8e72f3de">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a87d4613de8c33ef1721b1ae05d250a79">ConstraintTermIF</a>
 , <a class="el" href="classdv_container.html#a24dd49a23eadda66265ccae127674b13">dvContainer</a>
-, <a class="el" href="class_if_then_constraint.html#aa13a41ab34ff5f23f9ccfd55b014cc2c">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a992c5eeb7aed11d01bbb5c20e32b1a44">LHSExpression</a>
 , <a class="el" href="class_optimization_model_i_f.html#a6acea6053f84f1ca53866abd5ebeedb0">OptimizationModelIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#a54f5f0beb0b2c9dba1ed8c1d4d323393">SOSConstraint</a>
 </li>
 <li>getNumObsUncertainties()
 : <a class="el" href="classunc_container.html#aad5b8efb861123fba9531685593b2cb3">uncContainer</a>
@@ -355,7 +337,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="class_uncertain_optimization_model.html#a2739d640b477ca46dc2bb53158a6e3e4">UncertainOptimizationModel</a>
 </li>
 <li>getNumSubsets()
-: <a class="el" href="class_partition_constructor_i_f.html#a6b3c52dfbc18fc4a33bb40e3057993e7">PartitionConstructorIF</a>
+: <a class="el" href="class_partition_constructor_i_f.html#a4c4850814a118c3bd57028ff929bb895">PartitionConstructorIF</a>
 </li>
 <li>getNumTerms()
 : <a class="el" href="class_l_h_s_expression.html#a123049d6540253e9a6416e941c8f3cb1">LHSExpression</a>
@@ -373,7 +355,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="class_classic_constraint_i_f.html#a7177a69e21efc8bf28317306283954a4">ClassicConstraintIF</a>
 , <a class="el" href="class_constraint_i_f.html#af20b0bac184d5cb1ac740c19b3a10a03">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a034bd8cc06eb11d5ca7fa5883bc97f98">ConstraintTermIF</a>
-, <a class="el" href="class_if_then_constraint.html#a0e569d8698e936b38bace4452d8abfa5">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a033a2b9172a63793030c6fda93828d0a">LHSExpression</a>
 , <a class="el" href="class_max_objective.html#aedcb4cb52e38cf51b14459af92ec9bbb">MaxObjective</a>
 , <a class="el" href="class_norm_term.html#acfb26d15f8f9fa60b55a2a97cd1e4f46">NormTerm</a>
@@ -381,16 +362,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="class_optimization_model_i_f.html#adf3540f86779ccc1f451b0871f364623">OptimizationModelIF</a>
 , <a class="el" href="class_product_term.html#a3ba0bd68ea9c9c2ffab9329a2677f62f">ProductTerm</a>
 , <a class="el" href="class_simple_objective.html#a427768430e577fb5f5843eaf74178367">SimpleObjective</a>
-, <a class="el" href="class_s_o_s_constraint.html#a80065980a183dca6e2aa1164b5566bad">SOSConstraint</a>
 </li>
 <li>getNumUncertainties()
 : <a class="el" href="class_classic_constraint_i_f.html#a2a1b7b83a9da1f5470060a34349945fb">ClassicConstraintIF</a>
 , <a class="el" href="class_constraint_i_f.html#ac498bbe3ce1e05809abffafa27365458">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a1d92cf2edb527e9cedcceb6048d423cf">ConstraintTermIF</a>
-, <a class="el" href="class_if_then_constraint.html#a7250bc0ef0a0f66309e5748ec425e711">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a4ece232321e5b583dbf1e99d6b1820b2">LHSExpression</a>
 , <a class="el" href="class_optimization_model_i_f.html#a69cb954b1a1274c3f81e7a9ed9cadf09">OptimizationModelIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#a099b176c5ad3fd306a74353748287ae8">SOSConstraint</a>
 , <a class="el" href="classunc_container.html#aaa5651a89595ecb7dbe87bb9275e129d">uncContainer</a>
 , <a class="el" href="class_uncertain_optimization_model.html#a91e60351929653716c688b80e8276410">UncertainOptimizationModel</a>
 </li>
@@ -400,16 +378,14 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>getNumVars()
 : <a class="el" href="class_constraint_term_i_f.html#a3e1566552a56298f4c5ea65d2ce91bb8">ConstraintTermIF</a>
 , <a class="el" href="classdv_container.html#a624230897434bd944ffd5774c3d47e04">dvContainer</a>
-, <a class="el" href="class_if_then_constraint.html#a18548f2c1667550f7c2db8a2871b1745">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a4f37bf14a68ec9367df81945f59e57ad">LHSExpression</a>
 , <a class="el" href="class_optimization_model_i_f.html#a0e2cc5e3ff30bff1a40aac1f175fe69f">OptimizationModelIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#ac804995986ee51e4c6dfaeb578564822">SOSConstraint</a>
 </li>
 <li>getObj()
-: <a class="el" href="class_max_objective.html#ab796caa1c3f3852d072270c580a3f5a0">MaxObjective</a>
+: <a class="el" href="class_max_objective.html#a1ac96b1a3405ffeea27bc5224669b77d">MaxObjective</a>
 , <a class="el" href="class_objective_function_i_f.html#a79f7d0c91e9dfc76ec8b83891c7f126f">ObjectiveFunctionIF</a>
 , <a class="el" href="class_optimization_model_i_f.html#aeca7666370a149a35e3e740adb8909ef">OptimizationModelIF</a>
-, <a class="el" href="class_simple_objective.html#aa2f687d8466474b4b7e1913f6e3ba3e6">SimpleObjective</a>
+, <a class="el" href="class_simple_objective.html#a0ba406336668161476f6ef4ec492d337">SimpleObjective</a>
 </li>
 <li>getObjType()
 : <a class="el" href="class_objective_function_i_f.html#a2289279d977855311772cfa37f4b2dd3">ObjectiveFunctionIF</a>
@@ -448,14 +424,11 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>getSimpleObj()
 : <a class="el" href="class_simple_objective.html#ab7923f1ac3c072348ecac20f96710f14">SimpleObjective</a>
 </li>
-<li>getSize()
-: <a class="el" href="class_s_o_s_constraint.html#aee12d1212e5ecadacd1b9f0d4d0f8ca3">SOSConstraint</a>
-</li>
 <li>getSolution()
-: <a class="el" href="class_solver_modeller_i_f.html#ad79ab18922afa91fb0bb867e55d1da65">SolverModellerIF</a>
+: <a class="el" href="class_solver_modeller_i_f.html#a04eec984f8b8644faf0e157addcf23b6">SolverModellerIF</a>
 </li>
 <li>getSolutionApproachParameters()
-: <a class="el" href="class_kadaptability_decision_rule.html#a79a0de3f509c53e9263d486b8ad454cc">KadaptabilityDecisionRule</a>
+: <a class="el" href="class_kadaptability.html#a712a6be64e74ee00198091ae98c325e0">Kadaptability</a>
 , <a class="el" href="class_piecewise_decision_rule.html#af09fae5388088098ba88aea6d6f82a09">PiecewiseDecisionRule</a>
 </li>
 <li>getSolvingTime()
@@ -464,9 +437,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>getSOSeps()
 : <a class="el" href="class_solver_modeller_i_f.html#a9962c2b889646e89556dd8fb56cfd930">SolverModellerIF</a>
 , <a class="el" href="class_solver_params.html#aa26c87b9809c6613de94933e24fcb1e2">SolverParams</a>
-</li>
-<li>getSOSType()
-: <a class="el" href="class_s_o_s_constraint.html#a50422cc9957d090a8a13a99345b61b09">SOSConstraint</a>
 </li>
 <li>getStochasticObj()
 : <a class="el" href="class_piecewise_decision_rule.html#a88146e248f681260cdc8eb2077293b19">PiecewiseDecisionRule</a>
@@ -485,17 +455,17 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="class_solver_params.html#a6e88d4c76ea632dcc5956929b4a3e3ea">SolverParams</a>
 </li>
 <li>getTimeStage()
-: <a class="el" href="class_classic_constraint_i_f.html#a0bb10877091f944ac32c025d8fb27f6e">ClassicConstraintIF</a>
+: <a class="el" href="class_adaptive_variable_i_f.html#af0395756ce7b60f07db8251b8b974178">AdaptiveVariableIF</a>
+, <a class="el" href="class_classic_constraint_i_f.html#a0bb10877091f944ac32c025d8fb27f6e">ClassicConstraintIF</a>
 , <a class="el" href="class_constraint_i_f.html#aca6a1a1185a8fcd9fea214fecc3abdf5">ConstraintIF</a>
-, <a class="el" href="class_decision_variable_i_f.html#a35cb97481f9a7757ce422f06cb45a9bd">DecisionVariableIF</a>
+, <a class="el" href="class_decision_variable_i_f.html#addc7c9018aa8156884d5e955dc915b89">DecisionVariableIF</a>
 , <a class="el" href="classdv_container.html#a9eb0c023ad44248c46782009d262e226">dvContainer</a>
-, <a class="el" href="class_if_then_constraint.html#a87f76b30f70d985445612fe0dcdfabb3">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#a83fea89fcde2ebeabe3dc8cf0ea891fa">LHSExpression</a>
 , <a class="el" href="class_max_objective.html#aad57734fda486dfb847a2dcfa74b4183">MaxObjective</a>
 , <a class="el" href="class_objective_function_i_f.html#aecaccb6ce57b645af40564182b3e52fe">ObjectiveFunctionIF</a>
 , <a class="el" href="class_simple_objective.html#a192d68881cfadb6b2913ee6c6b3bcdfc">SimpleObjective</a>
-, <a class="el" href="class_s_o_s_constraint.html#a3b1c7b3ecd1126a63bfae5da8627d0c1">SOSConstraint</a>
 , <a class="el" href="class_uncertainty_i_f.html#a3f0a7747cb340755ec62345fe8a682de">UncertaintyIF</a>
+, <a class="el" href="class_variable_i_f.html#a2933b28857a6e3c524caf610811aa6ef">VariableIF</a>
 </li>
 <li>getType()
 : <a class="el" href="class_bilinear___m_i_s_o_c_p.html#a51475a88ed8a36457b997d541800b880">Bilinear_MISOCP</a>
@@ -524,14 +494,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="class_classic_constraint_i_f.html#a81d7c5c684472c0c7ce166ee118217f4">ClassicConstraintIF</a>
 , <a class="el" href="class_constraint_i_f.html#ac9bcbbb759a078752361b7ebb15673c9">ConstraintIF</a>
 , <a class="el" href="class_constraint_term_i_f.html#a2375ed394188393c9752f764ae09e61f">ConstraintTermIF</a>
-, <a class="el" href="class_if_then_constraint.html#a988a2c498e51b4c9c626127a1d7d4cad">IfThenConstraint</a>
 , <a class="el" href="class_l_h_s_expression.html#afdf3d60e26b3926522011f8635c45545">LHSExpression</a>
 , <a class="el" href="class_optimization_model_i_f.html#afba1e2e64a902b0d8377cdb195f68061">OptimizationModelIF</a>
-, <a class="el" href="class_s_o_s_constraint.html#a674cc0c355701ddf4026623589dc8f86">SOSConstraint</a>
 , <a class="el" href="class_uncertain_optimization_model.html#a503d58443c74df623982fc3fbc19ba7f">UncertainOptimizationModel</a>
 </li>
 <li>getUncOnPartition()
-: <a class="el" href="class_kadaptability_decision_rule.html#ad037b39d69dec868068b760d896b04df">KadaptabilityDecisionRule</a>
+: <a class="el" href="class_kadaptability.html#a23c6b7c72d6cade4f7456582e467c5a1">Kadaptability</a>
 , <a class="el" href="class_partition_constructor_i_f.html#a9b437a1677bb3fa7886c6c2b75bea406">PartitionConstructorIF</a>
 </li>
 <li>getVar()
@@ -548,7 +516,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="class_solver_params.html#aaf74255a1efabd8042b07131ebddb97b">SolverParams</a>
 </li>
 <li>getWsSolutions()
-: <a class="el" href="class_kadaptability_decision_rule.html#a9d38b52fbf3cc2ee48d01b82df0c003e">KadaptabilityDecisionRule</a>
+: <a class="el" href="class_kadaptability.html#a40c140ce5c2fcfdfffc1826ebee28b28">Kadaptability</a>
 , <a class="el" href="class_piecewise_decision_rule.html#ac899fead0c890bec383b1ec732baf4ed">PiecewiseDecisionRule</a>
 </li>
 </ul>

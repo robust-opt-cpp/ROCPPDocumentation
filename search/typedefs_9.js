@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['sos_5fiterator_1644',['sos_iterator',['../class_s_o_s_constraint.html#a14dcad1361dee1d287a153ffa329630d',1,'SOSConstraint']]],
-  ['sosmaptype_1645',['SOSMapType',['../class_s_o_s_constraint.html#afdda16bd6571aefaeee8063227ac9a25',1,'SOSConstraint']]]
+  ['uncertaintiesiterator_1618',['uncertaintiesIterator',['../class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674',1,'ClassicConstraintIF::uncertaintiesIterator()'],['../class_optimization_model_i_f.html#ad1f8c5405e22d0b842b2fff391e466a0',1,'OptimizationModelIF::uncertaintiesIterator()']]],
+  ['uncertaintysetiterator_1619',['uncertaintySetIterator',['../class_uncertain_optimization_model.html#ad264fce66ee8018a79209a102169a88d',1,'UncertainOptimizationModel']]],
+  ['unciterator_1620',['uncIterator',['../class_constraint_term_i_f.html#aeb60f053f205de4200c6cc7881e6ea55',1,'ConstraintTermIF::uncIterator()'],['../class_product_term.html#a54ba4d12df3b0d53deaf1025d9476a78',1,'ProductTerm::uncIterator()'],['../class_l_h_s_expression.html#a9463d2e3f57d90c0b6004f76eb1ebe16',1,'LHSExpression::uncIterator()']]],
+  ['uncmaptype_1621',['uncMapType',['../class_product_term.html#ae39746d4b709d258751b90992c2073a7',1,'ProductTerm::uncMapType()'],['../_header_include_files_8hpp.html#a58fd8a0711b9b94884a08e452f34025d',1,'uncMapType():&#160;HeaderIncludeFiles.hpp']]],
+  ['uncsiterator_1622',['uncsIterator',['../class_objective_function_i_f.html#ae1ed143a3399f83a7f8c252d8e7f1251',1,'ObjectiveFunctionIF']]],
+  ['usconstraints_5fiterator_1623',['usconstraints_iterator',['../class_partition_constructor_i_f.html#a2afed135c90d63e0c83f6fee32b16473',1,'PartitionConstructorIF']]]
 ];

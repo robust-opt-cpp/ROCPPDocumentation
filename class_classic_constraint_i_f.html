@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="4.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ROC++
-   &#160;<span id="projectnumber">v1.0</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
    <div id="projectbrief">Automatic Robust Optimization in C++</div>
   </td>
@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('class_classic_constraint_i_f.html','')
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_classic_constraint_i_f-members.html">List of all members</a>  </div>
@@ -129,6 +130,19 @@ Collaboration diagram for ClassicConstraintIF:</div>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:aa3b262bb32034b32290167bb2b3c5ff7"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="_constraint_8hpp.html#a250448f87f2befc1c2defb8b683e280a">ConstraintLHS_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#aa3b262bb32034b32290167bb2b3c5ff7">const_iterator</a></td></tr>
+<tr class="memdesc:aa3b262bb32034b32290167bb2b3c5ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator in <a class="el" href="class_l_h_s_expression.html" title="Left hand-side expression class.">LHSExpression</a> terms.  <a href="class_classic_constraint_i_f.html#aa3b262bb32034b32290167bb2b3c5ff7">More...</a><br /></td></tr>
+<tr class="separator:aa3b262bb32034b32290167bb2b3c5ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d32a23e019abe85aa61790f03a32674"><td class="memItemLeft" align="right" valign="top">typedef uncMapType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674">uncertaintiesIterator</a></td></tr>
+<tr class="memdesc:a2d32a23e019abe85aa61790f03a32674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator in the uncertain parameter map.  <a href="class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674">More...</a><br /></td></tr>
+<tr class="separator:a2d32a23e019abe85aa61790f03a32674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_types_class_constraint_i_f"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_constraint_i_f')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_constraint_i_f.html">ConstraintIF</a></td></tr>
+<tr class="memitem:a6157298dbb92642cef82c1fad71bdea5 inherit pub_types_class_constraint_i_f"><td class="memItemLeft" align="right" valign="top">typedef dvMapType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_i_f.html#a6157298dbb92642cef82c1fad71bdea5">varsIterator</a></td></tr>
+<tr class="memdesc:a6157298dbb92642cef82c1fad71bdea5 inherit pub_types_class_constraint_i_f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator in decision variable map.  <a href="class_constraint_i_f.html#a6157298dbb92642cef82c1fad71bdea5">More...</a><br /></td></tr>
+<tr class="separator:a6157298dbb92642cef82c1fad71bdea5 inherit pub_types_class_constraint_i_f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3be0ebbb5d136c7ba3a8057316ce7da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#ac3be0ebbb5d136c7ba3a8057316ce7da">ClassicConstraintIF</a> (bool <a class="el" href="class_constraint_i_f.html#a88ee95e776a757a752665b46522d5bb3">definesUncertaintySet</a>, bool <a class="el" href="class_constraint_i_f.html#a7af93d56f51aa3e492c1453cb5a2b6bf">isNAC</a>=false)</td></tr>
@@ -137,18 +151,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7bffb6b4f9293b6c0d9aceb612dee6e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a7bffb6b4f9293b6c0d9aceb612dee6e0">~ClassicConstraintIF</a> ()</td></tr>
 <tr class="memdesc:a7bffb6b4f9293b6c0d9aceb612dee6e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of classic constraint class.  <a href="class_classic_constraint_i_f.html#a7bffb6b4f9293b6c0d9aceb612dee6e0">More...</a><br /></td></tr>
 <tr class="separator:a7bffb6b4f9293b6c0d9aceb612dee6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9525fea20c7ab4e40ee166f3796b699"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constraint_i_f.html#ae22046563e064bf3d29cd992fdbf9636">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#af9525fea20c7ab4e40ee166f3796b699">begin</a> () const</td></tr>
+<tr class="memitem:af9525fea20c7ab4e40ee166f3796b699"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_classic_constraint_i_f.html#aa3b262bb32034b32290167bb2b3c5ff7">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#af9525fea20c7ab4e40ee166f3796b699">begin</a> () const</td></tr>
 <tr class="separator:af9525fea20c7ab4e40ee166f3796b699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc3e6b85180c3f100b39885020bb5d26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constraint_i_f.html#ae22046563e064bf3d29cd992fdbf9636">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#abc3e6b85180c3f100b39885020bb5d26">end</a> () const</td></tr>
+<tr class="memitem:abc3e6b85180c3f100b39885020bb5d26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_classic_constraint_i_f.html#aa3b262bb32034b32290167bb2b3c5ff7">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#abc3e6b85180c3f100b39885020bb5d26">end</a> () const</td></tr>
 <tr class="separator:abc3e6b85180c3f100b39885020bb5d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af087740d869501415a4ae69c37589490"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constraint_i_f.html#a6157298dbb92642cef82c1fad71bdea5">varsIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#af087740d869501415a4ae69c37589490">varsBegin</a> () const</td></tr>
 <tr class="separator:af087740d869501415a4ae69c37589490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45aeb0fa1a0d5c1d57c12605a209754a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constraint_i_f.html#a6157298dbb92642cef82c1fad71bdea5">varsIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a45aeb0fa1a0d5c1d57c12605a209754a">varsEnd</a> () const</td></tr>
 <tr class="separator:a45aeb0fa1a0d5c1d57c12605a209754a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d6fc59f7803a6fa7a2314b4c7664843"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constraint_i_f.html#a3a1d0a9e3f175c668351eb53e471fc88">uncertaintiesIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a9d6fc59f7803a6fa7a2314b4c7664843">uncertaintiesBegin</a> () const</td></tr>
-<tr class="separator:a9d6fc59f7803a6fa7a2314b4c7664843"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a100549475cc1033b277c8d599ea2fad8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_constraint_i_f.html#a3a1d0a9e3f175c668351eb53e471fc88">uncertaintiesIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a100549475cc1033b277c8d599ea2fad8">uncertaintiesEnd</a> () const</td></tr>
-<tr class="separator:a100549475cc1033b277c8d599ea2fad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e5148d1b7542f19b671280f1203ea34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674">uncertaintiesIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a5e5148d1b7542f19b671280f1203ea34">uncertaintiesBegin</a> () const</td></tr>
+<tr class="separator:a5e5148d1b7542f19b671280f1203ea34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ef6eb9a554f14e46e72fef8c32cc3b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674">uncertaintiesIterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a7ef6eb9a554f14e46e72fef8c32cc3b0">uncertaintiesEnd</a> () const</td></tr>
+<tr class="separator:a7ef6eb9a554f14e46e72fef8c32cc3b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45f35a3c4fc531bb109c21b851405757"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a45f35a3c4fc531bb109c21b851405757">add_lhs</a> (double c)</td></tr>
 <tr class="memdesc:a45f35a3c4fc531bb109c21b851405757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="class_product_term.html" title="Product term.">ProductTerm</a> using the given input and add it to the left hand side of this constraint.  <a href="class_classic_constraint_i_f.html#a45f35a3c4fc531bb109c21b851405757">More...</a><br /></td></tr>
 <tr class="separator:a45f35a3c4fc531bb109c21b851405757"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,7 +205,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a53bb13dfaf8684584df9326ade09a523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5c0e3d94710dfd4f2e30d070743ad01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#a4c24c68fcf3d0375f4d8ce88d83cdf62">ROCPPConstraintIF_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#ac5c0e3d94710dfd4f2e30d070743ad01">replaceTermWithVar</a> (const multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;term, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> var) const</td></tr>
 <tr class="separator:ac5c0e3d94710dfd4f2e30d070743ad01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88c11bfd44f85adf37d431b8adc0d1b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#a4c24c68fcf3d0375f4d8ce88d83cdf62">ROCPPConstraintIF_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a88c11bfd44f85adf37d431b8adc0d1b1">replaceBilinearTerm</a> (map&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;allTerm, uint &amp;count) const</td></tr>
+<tr class="memitem:a88c11bfd44f85adf37d431b8adc0d1b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#a4c24c68fcf3d0375f4d8ce88d83cdf62">ROCPPConstraintIF_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a88c11bfd44f85adf37d431b8adc0d1b1">replaceBilinearTerm</a> (map&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;allTerm, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &amp;count) const</td></tr>
 <tr class="separator:a88c11bfd44f85adf37d431b8adc0d1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed383175f2c4d162dbe7c58e1d05ef24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#a4c24c68fcf3d0375f4d8ce88d83cdf62">ROCPPConstraintIF_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#aed383175f2c4d162dbe7c58e1d05ef24">mapVars</a> (const map&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;mapFromOldToNewVars) const</td></tr>
 <tr class="separator:aed383175f2c4d162dbe7c58e1d05ef24"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,9 +215,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a49ef6e5fdc2b2be62f871d5540868684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3961e46f057df88386d7e8f86df2ab7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#af3961e46f057df88386d7e8f86df2ab7">add_int_vars</a> (<a class="el" href="classdv_container.html">dvContainer</a> &amp;dvs) const</td></tr>
 <tr class="separator:af3961e46f057df88386d7e8f86df2ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7177a69e21efc8bf28317306283954a4"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a7177a69e21efc8bf28317306283954a4">getNumTimesTermAppears</a> (const multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;term) const</td></tr>
+<tr class="memitem:a7177a69e21efc8bf28317306283954a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a7177a69e21efc8bf28317306283954a4">getNumTimesTermAppears</a> (const multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;term) const</td></tr>
 <tr class="separator:a7177a69e21efc8bf28317306283954a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c25ff46b49db441b06b8c4b864d1c58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a7c25ff46b49db441b06b8c4b864d1c58">getAllProductsOf2Variables</a> (map&lt; pair&lt; string, string &gt;, uint &gt; &amp;freqMap, map&lt; pair&lt; string, string &gt;, multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &gt; &amp;termMap) const</td></tr>
+<tr class="memitem:a7c25ff46b49db441b06b8c4b864d1c58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a7c25ff46b49db441b06b8c4b864d1c58">getAllProductsOf2Variables</a> (map&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;freqMap, map&lt; pair&lt; string, string &gt;, multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &gt; &amp;termMap) const</td></tr>
 <tr class="separator:a7c25ff46b49db441b06b8c4b864d1c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21035a8a5dffaceb30ea9fc67cd12504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#a31e7e98e8f6345df32f8a3492fd81ae4">ROCPPconstdvContainer_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a21035a8a5dffaceb30ea9fc67cd12504">getDVContainer</a> () const</td></tr>
 <tr class="memdesc:a21035a8a5dffaceb30ea9fc67cd12504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the decision variable container of this constraint.  <a href="class_classic_constraint_i_f.html#a21035a8a5dffaceb30ea9fc67cd12504">More...</a><br /></td></tr>
@@ -211,22 +225,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a81d7c5c684472c0c7ce166ee118217f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#a73864f70b2daae51b728256508ee9513">ROCPPconstuncContainer_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a81d7c5c684472c0c7ce166ee118217f4">getUncContainer</a> () const</td></tr>
 <tr class="memdesc:a81d7c5c684472c0c7ce166ee118217f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the uncertain parameter container of this constraint.  <a href="class_classic_constraint_i_f.html#a81d7c5c684472c0c7ce166ee118217f4">More...</a><br /></td></tr>
 <tr class="separator:a81d7c5c684472c0c7ce166ee118217f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8376d1b940211a0fdca7d2af8a8f5162"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a8376d1b940211a0fdca7d2af8a8f5162">getNumContVars</a> () const</td></tr>
+<tr class="memitem:a8376d1b940211a0fdca7d2af8a8f5162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a8376d1b940211a0fdca7d2af8a8f5162">getNumContVars</a> () const</td></tr>
 <tr class="memdesc:a8376d1b940211a0fdca7d2af8a8f5162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of real-valued decision variables in this constraint.  <a href="class_classic_constraint_i_f.html#a8376d1b940211a0fdca7d2af8a8f5162">More...</a><br /></td></tr>
 <tr class="separator:a8376d1b940211a0fdca7d2af8a8f5162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a762633330872ef9f4c888c79ad5f2064"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a762633330872ef9f4c888c79ad5f2064">getNumIntVars</a> () const</td></tr>
+<tr class="memitem:a762633330872ef9f4c888c79ad5f2064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a762633330872ef9f4c888c79ad5f2064">getNumIntVars</a> () const</td></tr>
 <tr class="memdesc:a762633330872ef9f4c888c79ad5f2064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of integer decision variables in this constraint.  <a href="class_classic_constraint_i_f.html#a762633330872ef9f4c888c79ad5f2064">More...</a><br /></td></tr>
 <tr class="separator:a762633330872ef9f4c888c79ad5f2064"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5b2e90942b4520a44e0e033a6ceb462"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#af5b2e90942b4520a44e0e033a6ceb462">getNumBoolVars</a> () const</td></tr>
+<tr class="memitem:af5b2e90942b4520a44e0e033a6ceb462"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#af5b2e90942b4520a44e0e033a6ceb462">getNumBoolVars</a> () const</td></tr>
 <tr class="memdesc:af5b2e90942b4520a44e0e033a6ceb462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of boolean variables in this constraint.  <a href="class_classic_constraint_i_f.html#af5b2e90942b4520a44e0e033a6ceb462">More...</a><br /></td></tr>
 <tr class="separator:af5b2e90942b4520a44e0e033a6ceb462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89c5a7f9fd6f51e81a5964cbd6da4aed"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a89c5a7f9fd6f51e81a5964cbd6da4aed">getNumAdaptiveContVars</a> () const</td></tr>
+<tr class="memitem:a89c5a7f9fd6f51e81a5964cbd6da4aed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a89c5a7f9fd6f51e81a5964cbd6da4aed">getNumAdaptiveContVars</a> () const</td></tr>
 <tr class="memdesc:a89c5a7f9fd6f51e81a5964cbd6da4aed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of adaptive real-valued decision variables in this constraint.  <a href="class_classic_constraint_i_f.html#a89c5a7f9fd6f51e81a5964cbd6da4aed">More...</a><br /></td></tr>
 <tr class="separator:a89c5a7f9fd6f51e81a5964cbd6da4aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a243dfe875f2d846c3d0c5605a568aae5"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a243dfe875f2d846c3d0c5605a568aae5">getNumAdaptiveVars</a> () const</td></tr>
+<tr class="memitem:a243dfe875f2d846c3d0c5605a568aae5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a243dfe875f2d846c3d0c5605a568aae5">getNumAdaptiveVars</a> () const</td></tr>
 <tr class="memdesc:a243dfe875f2d846c3d0c5605a568aae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of adaptive decision variables in this constraint.  <a href="class_classic_constraint_i_f.html#a243dfe875f2d846c3d0c5605a568aae5">More...</a><br /></td></tr>
 <tr class="separator:a243dfe875f2d846c3d0c5605a568aae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bb10877091f944ac32c025d8fb27f6e"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a0bb10877091f944ac32c025d8fb27f6e">getTimeStage</a> () const</td></tr>
+<tr class="memitem:a0bb10877091f944ac32c025d8fb27f6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a0bb10877091f944ac32c025d8fb27f6e">getTimeStage</a> () const</td></tr>
 <tr class="memdesc:a0bb10877091f944ac32c025d8fb27f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum time-stage of any decision variable in the constraint.  <a href="class_classic_constraint_i_f.html#a0bb10877091f944ac32c025d8fb27f6e">More...</a><br /></td></tr>
 <tr class="separator:a0bb10877091f944ac32c025d8fb27f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a1b7b83a9da1f5470060a34349945fb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a2a1b7b83a9da1f5470060a34349945fb">getNumUncertainties</a> () const</td></tr>
@@ -269,9 +283,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa9c893c054a6a0d616502c050306fbc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the norm term in the left-hand side expression of this constraint.  <a href="class_classic_constraint_i_f.html#aa9c893c054a6a0d616502c050306fbc9">More...</a><br /></td></tr>
 <tr class="separator:aa9c893c054a6a0d616502c050306fbc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a474127d97a97f08e7970d5ed117e6f65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#a4c24c68fcf3d0375f4d8ce88d83cdf62">ROCPPConstraintIF_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a474127d97a97f08e7970d5ed117e6f65">Clone</a> () const</td></tr>
-<tr class="memdesc:a474127d97a97f08e7970d5ed117e6f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a copy of this constraint.  <a href="class_classic_constraint_i_f.html#a474127d97a97f08e7970d5ed117e6f65">More...</a><br /></td></tr>
+<tr class="memdesc:a474127d97a97f08e7970d5ed117e6f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the right hand side of this constraint.  <a href="class_classic_constraint_i_f.html#a474127d97a97f08e7970d5ed117e6f65">More...</a><br /></td></tr>
 <tr class="separator:a474127d97a97f08e7970d5ed117e6f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d43c12153230d3c98fa4df8f4a06ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a92d43c12153230d3c98fa4df8f4a06ef">WriteToStream</a> (ofstream &amp;ofs, uint cnt) const</td></tr>
+<tr class="memitem:a92d43c12153230d3c98fa4df8f4a06ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_classic_constraint_i_f.html#a92d43c12153230d3c98fa4df8f4a06ef">WriteToStream</a> (ofstream &amp;ofs, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> cnt) const</td></tr>
 <tr class="memdesc:a92d43c12153230d3c98fa4df8f4a06ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the constraint to a stream.  <a href="class_classic_constraint_i_f.html#a92d43c12153230d3c98fa4df8f4a06ef">More...</a><br /></td></tr>
 <tr class="separator:a92d43c12153230d3c98fa4df8f4a06ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_constraint_i_f"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_constraint_i_f')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_constraint_i_f.html">ConstraintIF</a></td></tr>
@@ -314,16 +328,6 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_class_constraint_i_f"><td colspan="2" onclick="javascript:toggleInherit('pub_types_class_constraint_i_f')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_constraint_i_f.html">ConstraintIF</a></td></tr>
-<tr class="memitem:a6157298dbb92642cef82c1fad71bdea5 inherit pub_types_class_constraint_i_f"><td class="memItemLeft" align="right" valign="top">typedef dvMapType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_i_f.html#a6157298dbb92642cef82c1fad71bdea5">varsIterator</a></td></tr>
-<tr class="memdesc:a6157298dbb92642cef82c1fad71bdea5 inherit pub_types_class_constraint_i_f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator in decision variable map.  <a href="class_constraint_i_f.html#a6157298dbb92642cef82c1fad71bdea5">More...</a><br /></td></tr>
-<tr class="separator:a6157298dbb92642cef82c1fad71bdea5 inherit pub_types_class_constraint_i_f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a1d0a9e3f175c668351eb53e471fc88 inherit pub_types_class_constraint_i_f"><td class="memItemLeft" align="right" valign="top">typedef uncMapType::const_iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_i_f.html#a3a1d0a9e3f175c668351eb53e471fc88">uncertaintiesIterator</a></td></tr>
-<tr class="memdesc:a3a1d0a9e3f175c668351eb53e471fc88 inherit pub_types_class_constraint_i_f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator in the uncertain parameter map.  <a href="class_constraint_i_f.html#a3a1d0a9e3f175c668351eb53e471fc88">More...</a><br /></td></tr>
-<tr class="separator:a3a1d0a9e3f175c668351eb53e471fc88 inherit pub_types_class_constraint_i_f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae22046563e064bf3d29cd992fdbf9636 inherit pub_types_class_constraint_i_f"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="_constraint_8hpp.html#a250448f87f2befc1c2defb8b683e280a">ConstraintLHS_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_i_f.html#ae22046563e064bf3d29cd992fdbf9636">const_iterator</a></td></tr>
-<tr class="memdesc:ae22046563e064bf3d29cd992fdbf9636 inherit pub_types_class_constraint_i_f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constant iterator in <a class="el" href="class_l_h_s_expression.html" title="Left hand-side expression class.">LHSExpression</a> terms.  <a href="class_constraint_i_f.html#ae22046563e064bf3d29cd992fdbf9636">More...</a><br /></td></tr>
-<tr class="separator:ae22046563e064bf3d29cd992fdbf9636 inherit pub_types_class_constraint_i_f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_constraint_i_f"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_constraint_i_f')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_constraint_i_f.html">ConstraintIF</a></td></tr>
 <tr class="memitem:ac3b7e0eaaf8b7da7b44090d0bbd99fcb inherit pro_attribs_class_constraint_i_f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_constraint_i_f.html#ac3b7e0eaaf8b7da7b44090d0bbd99fcb">m_definesUncertaintySet</a></td></tr>
 <tr class="memdesc:ac3b7e0eaaf8b7da7b44090d0bbd99fcb inherit pro_attribs_class_constraint_i_f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate whether this constraint defines uncertainty set or not.  <a href="class_constraint_i_f.html#ac3b7e0eaaf8b7da7b44090d0bbd99fcb">More...</a><br /></td></tr>
@@ -334,7 +338,40 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classic constraint interface class. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aa3b262bb32034b32290167bb2b3c5ff7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3b262bb32034b32290167bb2b3c5ff7">&#9670;&nbsp;</a></span>const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="_constraint_8hpp.html#a250448f87f2befc1c2defb8b683e280a">ConstraintLHS_const_iterator</a> <a class="el" href="class_classic_constraint_i_f.html#aa3b262bb32034b32290167bb2b3c5ff7">ClassicConstraintIF::const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constant iterator in <a class="el" href="class_l_h_s_expression.html" title="Left hand-side expression class.">LHSExpression</a> terms. </p>
+
+</div>
+</div>
+<a id="a2d32a23e019abe85aa61790f03a32674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d32a23e019abe85aa61790f03a32674">&#9670;&nbsp;</a></span>uncertaintiesIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uncMapType::const_iterator <a class="el" href="class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674">ClassicConstraintIF::uncertaintiesIterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constant iterator in the uncertain parameter map. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac3be0ebbb5d136c7ba3a8057316ce7da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3be0ebbb5d136c7ba3a8057316ce7da">&#9670;&nbsp;</a></span>ClassicConstraintIF()</h2>
 
@@ -434,9 +471,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -446,11 +480,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Create a new <a class="el" href="class_product_term.html" title="Product term.">ProductTerm</a> using the given input and add it to the left hand side of this constraint. </p>
@@ -461,8 +490,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a60be25ecf7bd24ba754f273d2e23ee4c">ConstraintIF</a>.</p>
-
 </div>
 </div>
 <a id="a392b8f2f03bb213e809af643b14bb886"></a>
@@ -470,9 +497,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -492,11 +516,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Add the product of the given inputs into the left hand side of this constraint. </p>
@@ -509,8 +528,6 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Call LHExpression::add(ROCPPconstCstrTermIF_Ptr) after multiplying term by c </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a0bfd49c8ff44da5bf33f954445f000e4">ConstraintIF</a>.</p>
-
 </div>
 </div>
 <a id="a686ebd7d547e4197687573802e407ad9"></a>
@@ -518,9 +535,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -540,11 +554,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Add the given expression multiplied by c to the left hand side of this constraint. </p>
@@ -557,8 +566,6 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Call LHExpression::add(ROCPPconstExpr_Ptr) after scaled </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#ae388ba6920ce7cf79f45edf96f73dd36">ConstraintIF</a>.</p>
-
 </div>
 </div>
 <a id="a35ac6af795d06d83c3a3941aa67891b2"></a>
@@ -566,9 +573,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -594,11 +598,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Add the product of the given inputs to the left hand side of this constraint. </p>
@@ -612,8 +611,6 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Call LHExpression::add(ROCPPconstExpr_Ptr) </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a8c43155c09b76202ce3d4fb2c070157a">ConstraintIF</a>.</p>
-
 </div>
 </div>
 <a id="ab733de5dea140100f63e11a89894f03f"></a>
@@ -621,9 +618,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -643,11 +637,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Create a new <a class="el" href="class_product_term.html" title="Product term.">ProductTerm</a> using the given inputs and add it to the left hand side of this constraint. </p>
@@ -658,8 +647,6 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#ad285346b5b94d9ced7c263bb0cfd8fc1">ConstraintIF</a>.</p>
 
 </div>
 </div>
@@ -668,9 +655,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -696,11 +680,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Create a new <a class="el" href="class_product_term.html" title="Product term.">ProductTerm</a> using the given inputs and add it to the left hand side of this constraint. </p>
@@ -712,8 +691,6 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a0c618b41b5cce15c56c57ef620d11dd9">ConstraintIF</a>.</p>
 
 </div>
 </div>
@@ -722,9 +699,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -756,11 +730,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Create a new <a class="el" href="class_product_term.html" title="Product term.">ProductTerm</a> using the given inputs and add it to the left hand side of this constraint. </p>
@@ -774,8 +743,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a8b2873988a897692e790c6d347b6636f">ConstraintIF</a>.</p>
-
 </div>
 </div>
 <a id="a1b38e4e34cf2bb68ce16c18481153db7"></a>
@@ -783,9 +750,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -805,11 +769,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Create a new <a class="el" href="class_product_term.html" title="Product term.">ProductTerm</a> using the given inputs and add it to the left hand side of this constraint. </p>
@@ -821,8 +780,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a0eab34b6a9f90ee92d1c80e4cdacdb48">ConstraintIF</a>.</p>
-
 </div>
 </div>
 <a id="a9e7fedcaedd16451574021c4e67e86c1"></a>
@@ -830,9 +787,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -858,11 +812,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Create a new <a class="el" href="class_product_term.html" title="Product term.">ProductTerm</a> using the given inputs and add it to the left hand side of this constraint. </p>
@@ -875,8 +824,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a45075f539c3ceb8b34e0e153db58e612">ConstraintIF</a>.</p>
-
 </div>
 </div>
 <a id="a5b5dadf1ef5f8434f8d4546e99794a8f"></a>
@@ -884,9 +831,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -896,18 +840,11 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Add the given term to the left hand side of this constraint. </p>
 <dl class="section note"><dt>Note</dt><dd>If the term already exists, change the coefficient </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>One expression can only have one norm term with coefficient equal to 1 </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#aa63fba7a40714d37ef8cd15c997be281">ConstraintIF</a>.</p>
 
 </div>
 </div>
@@ -916,9 +853,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::add_lhs </td>
@@ -928,11 +862,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Add the given expression to the left hand side of this constraint. </p>
@@ -943,8 +872,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>Call LHExpression::add(ROCPPconstExpr_Ptr) after scaling it by </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a6e698bd177e53dbeae65b5e6261c0a52">ConstraintIF</a>.</p>
 
 </div>
 </div>
@@ -1011,26 +938,16 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_constraint_i_f.html#ae22046563e064bf3d29cd992fdbf9636">ClassicConstraintIF::const_iterator</a> ClassicConstraintIF::begin </td>
+          <td class="memname"><a class="el" href="class_classic_constraint_i_f.html#aa3b262bb32034b32290167bb2b3c5ff7">ClassicConstraintIF::const_iterator</a> ClassicConstraintIF::begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Call LHExpression::begin() for the left-hand side expression of this constraint </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a4d565117a4fcc081d921a24db68439c3">ConstraintIF</a>.</p>
 
 </div>
 </div>
@@ -1057,7 +974,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return a copy of this constraint. </p>
+<p>Set the right hand side of this constraint. </p>
+<dl class="section note"><dt>Note</dt><dd>Only valid in classic constraint Return a copy of this constraint </dd></dl>
 
 <p>Implements <a class="el" href="class_constraint_i_f.html#a4b78c321e58cb6dc0bff272d969b65e9">ConstraintIF</a>.</p>
 
@@ -1068,26 +986,16 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_constraint_i_f.html#ae22046563e064bf3d29cd992fdbf9636">ClassicConstraintIF::const_iterator</a> ClassicConstraintIF::end </td>
+          <td class="memname"><a class="el" href="class_classic_constraint_i_f.html#aa3b262bb32034b32290167bb2b3c5ff7">ClassicConstraintIF::const_iterator</a> ClassicConstraintIF::end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Call LHExpression::end() for the left-hand side expression of this constraint </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a018cc6626bd6639c75f1a90c8ba0540e">ConstraintIF</a>.</p>
 
 </div>
 </div>
@@ -1120,7 +1028,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void ClassicConstraintIF::getAllProductsOf2Variables </td>
           <td>(</td>
-          <td class="paramtype">map&lt; pair&lt; string, string &gt;, uint &gt; &amp;&#160;</td>
+          <td class="paramtype">map&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>freqMap</em>, </td>
         </tr>
         <tr>
@@ -1243,7 +1151,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint ClassicConstraintIF::getNumAdaptiveContVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ClassicConstraintIF::getNumAdaptiveContVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1272,7 +1180,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint ClassicConstraintIF::getNumAdaptiveVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ClassicConstraintIF::getNumAdaptiveVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1301,7 +1209,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint ClassicConstraintIF::getNumBoolVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ClassicConstraintIF::getNumBoolVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1330,7 +1238,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint ClassicConstraintIF::getNumContVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ClassicConstraintIF::getNumContVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1359,7 +1267,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint ClassicConstraintIF::getNumIntVars </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ClassicConstraintIF::getNumIntVars </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1388,7 +1296,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint ClassicConstraintIF::getNumTimesTermAppears </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ClassicConstraintIF::getNumTimesTermAppears </td>
           <td>(</td>
           <td class="paramtype">const multimap&lt; string, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>term</em></td><td>)</td>
@@ -1446,7 +1354,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint ClassicConstraintIF::getTimeStage </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> ClassicConstraintIF::getTimeStage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1889,7 +1797,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &amp;&#160;</td>
           <td class="paramname"><em>count</em>&#160;</td>
         </tr>
         <tr>
@@ -1954,9 +1862,6 @@ Additional Inherited Members</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void ClassicConstraintIF::set_rhs </td>
@@ -1966,11 +1871,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Set right-hand side parameter of this constraint. </p>
@@ -1981,63 +1881,41 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a81ccaa6c1bf04af50ea127e60c4e1a44">ConstraintIF</a>.</p>
-
 </div>
 </div>
-<a id="a9d6fc59f7803a6fa7a2314b4c7664843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d6fc59f7803a6fa7a2314b4c7664843">&#9670;&nbsp;</a></span>uncertaintiesBegin()</h2>
+<a id="a5e5148d1b7542f19b671280f1203ea34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e5148d1b7542f19b671280f1203ea34">&#9670;&nbsp;</a></span>uncertaintiesBegin()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_constraint_i_f.html#a3a1d0a9e3f175c668351eb53e471fc88">ConstraintIF::uncertaintiesIterator</a> ClassicConstraintIF::uncertaintiesBegin </td>
+          <td class="memname"><a class="el" href="class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674">ClassicConstraintIF::uncertaintiesIterator</a> ClassicConstraintIF::uncertaintiesBegin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Call LHExpression::uncBegin() for the left-hand side expression of this constraint </dd></dl>
 
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a36c05c03b246d879b749d7d6bde6a392">ConstraintIF</a>.</p>
-
 </div>
 </div>
-<a id="a100549475cc1033b277c8d599ea2fad8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a100549475cc1033b277c8d599ea2fad8">&#9670;&nbsp;</a></span>uncertaintiesEnd()</h2>
+<a id="a7ef6eb9a554f14e46e72fef8c32cc3b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ef6eb9a554f14e46e72fef8c32cc3b0">&#9670;&nbsp;</a></span>uncertaintiesEnd()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_constraint_i_f.html#a3a1d0a9e3f175c668351eb53e471fc88">ConstraintIF::uncertaintiesIterator</a> ClassicConstraintIF::uncertaintiesEnd </td>
+          <td class="memname"><a class="el" href="class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674">ClassicConstraintIF::uncertaintiesIterator</a> ClassicConstraintIF::uncertaintiesEnd </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <dl class="section note"><dt>Note</dt><dd>Call LHExpression::uncEnd() for the left-hand side expression of this constraint </dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_constraint_i_f.html#a8b890d11bc6c75de0ade50bfb92ac388">ConstraintIF</a>.</p>
 
 </div>
 </div>
@@ -2115,7 +1993,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint&#160;</td>
+          <td class="paramtype"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td>
           <td class="paramname"><em>cnt</em>&#160;</td>
         </tr>
         <tr>

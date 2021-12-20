@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="4.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ROC++
-   &#160;<span id="projectnumber">v1.0</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
    <div id="projectbrief">Automatic Robust Optimization in C++</div>
   </td>
@@ -112,11 +112,11 @@ Inheritance diagram for DecisionRuleIF:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_decision_rule_i_f__inherit__graph.png" border="0" usemap="#a_decision_rule_i_f_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_decision_rule_i_f_inherit__map" id="a_decision_rule_i_f_inherit__map">
-<area shape="rect" title="Decision rule approximator interface." alt="" coords="275,5,387,32"/>
+<area shape="rect" title="Decision rule approximator interface." alt="" coords="255,5,367,32"/>
 <area shape="rect" href="class_continuous_vars_d_r_i_f.html" title="Continous variable decision rule interface class." alt="" coords="5,80,152,107"/>
 <area shape="rect" href="class_discrete_vars_d_r_i_f.html" title="Discrete variable decision rule interface." alt="" coords="178,80,307,107"/>
-<area shape="rect" href="class_kadaptability_decision_rule.html" title="K&#45;adaptability approximator." alt="" coords="331,80,506,107"/>
-<area shape="rect" href="class_piecewise_decision_rule.html" title="Piecewise constant and piecewise linear decision rule approximator." alt="" coords="531,80,691,107"/>
+<area shape="rect" href="class_kadaptability.html" title="K&#45;adaptability approximator." alt="" coords="331,80,429,107"/>
+<area shape="rect" href="class_piecewise_decision_rule.html" title="Piecewise constant and piecewise linear decision rule approximator." alt="" coords="453,80,613,107"/>
 <area shape="rect" href="class_linear_decision_rule.html" title="Linear decision rule." alt="" coords="9,155,143,181"/>
 <area shape="rect" href="class_constant_decision_rule.html" title="Constant decision rule." alt="" coords="167,155,321,181"/>
 </map>
@@ -124,20 +124,20 @@ Inheritance diagram for DecisionRuleIF:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a708df235c4a5c960f82f07e3b49ba9aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a708df235c4a5c960f82f07e3b49ba9aa">DecisionRuleIF</a> (uint memory=1000)</td></tr>
+<tr class="memitem:a708df235c4a5c960f82f07e3b49ba9aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a708df235c4a5c960f82f07e3b49ba9aa">DecisionRuleIF</a> (<a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> memory=1000)</td></tr>
 <tr class="memdesc:a708df235c4a5c960f82f07e3b49ba9aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the <a class="el" href="class_decision_rule_i_f.html" title="Decision rule approximator interface.">DecisionRuleIF</a> class.  <a href="class_decision_rule_i_f.html#a708df235c4a5c960f82f07e3b49ba9aa">More...</a><br /></td></tr>
 <tr class="separator:a708df235c4a5c960f82f07e3b49ba9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafd42765e281a432dce2710b31e94aa9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#aafd42765e281a432dce2710b31e94aa9">~DecisionRuleIF</a> ()</td></tr>
 <tr class="memdesc:aafd42765e281a432dce2710b31e94aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the <a class="el" href="class_decision_rule_i_f.html" title="Decision rule approximator interface.">DecisionRuleIF</a> class.  <a href="class_decision_rule_i_f.html#aafd42765e281a432dce2710b31e94aa9">More...</a><br /></td></tr>
 <tr class="separator:aafd42765e281a432dce2710b31e94aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a815236ff08eae1da271cfeef948622ab"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a815236ff08eae1da271cfeef948622ab">getMemory</a> () const</td></tr>
+<tr class="memitem:a815236ff08eae1da271cfeef948622ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a815236ff08eae1da271cfeef948622ab">getMemory</a> () const</td></tr>
 <tr class="separator:a815236ff08eae1da271cfeef948622ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6052cd8636815dc147b4bc04b9b86bc4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a6052cd8636815dc147b4bc04b9b86bc4">approximate</a> (<a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn)=0</td></tr>
 <tr class="separator:a6052cd8636815dc147b4bc04b9b86bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:add77c752283e7144f23d57037610b084"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#add77c752283e7144f23d57037610b084">m_memory</a></td></tr>
+<tr class="memitem:add77c752283e7144f23d57037610b084"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#add77c752283e7144f23d57037610b084">m_memory</a></td></tr>
 <tr class="memdesc:add77c752283e7144f23d57037610b084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory of this approximator.  <a href="class_decision_rule_i_f.html#add77c752283e7144f23d57037610b084">More...</a><br /></td></tr>
 <tr class="separator:add77c752283e7144f23d57037610b084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -156,7 +156,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">DecisionRuleIF::DecisionRuleIF </td>
           <td>(</td>
-          <td class="paramtype">uint&#160;</td>
+          <td class="paramtype"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td>
           <td class="paramname"><em>memory</em> = <code>1000</code></td><td>)</td>
           <td></td>
         </tr>
@@ -230,7 +230,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="class_piecewise_decision_rule.html#aa963bd90b6a628b4b81ba85c07a81b8f">PiecewiseDecisionRule</a>, <a class="el" href="class_kadaptability_decision_rule.html#a8f02fdfe6c6009549b850257157c19b1">KadaptabilityDecisionRule</a>, <a class="el" href="class_constant_decision_rule.html#af63f725b14ca4f38ede47afe2ed96dd8">ConstantDecisionRule</a>, and <a class="el" href="class_linear_decision_rule.html#aa363dfdfdcf6ffc2392ae398e3eea6a2">LinearDecisionRule</a>.</p>
+<p>Implemented in <a class="el" href="class_piecewise_decision_rule.html#aa963bd90b6a628b4b81ba85c07a81b8f">PiecewiseDecisionRule</a>, <a class="el" href="class_kadaptability.html#a2cd966b84258aa4e44fa2b18a4b19962">Kadaptability</a>, <a class="el" href="class_constant_decision_rule.html#af63f725b14ca4f38ede47afe2ed96dd8">ConstantDecisionRule</a>, and <a class="el" href="class_linear_decision_rule.html#aa363dfdfdcf6ffc2392ae398e3eea6a2">LinearDecisionRule</a>.</p>
 
 </div>
 </div>
@@ -244,7 +244,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint DecisionRuleIF::getMemory </td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> DecisionRuleIF::getMemory </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -270,7 +270,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint DecisionRuleIF::m_memory</td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> DecisionRuleIF::m_memory</td>
         </tr>
       </table>
   </td>

@@ -5,8 +5,6 @@ var _constraint_8hpp =
     [ "ClassicConstraintIF", "class_classic_constraint_i_f.html", "class_classic_constraint_i_f" ],
     [ "IneqConstraint", "class_ineq_constraint.html", "class_ineq_constraint" ],
     [ "EqConstraint", "class_eq_constraint.html", "class_eq_constraint" ],
-    [ "SOSConstraint", "class_s_o_s_constraint.html", "class_s_o_s_constraint" ],
-    [ "IfThenConstraint", "class_if_then_constraint.html", "class_if_then_constraint" ],
     [ "ConstraintLHS_const_iterator", "_constraint_8hpp.html#a250448f87f2befc1c2defb8b683e280a", null ],
     [ "ConstraintLHS_iterator", "_constraint_8hpp.html#a03bcd2a6b47262a1ecdecbb808d7ec6a", null ],
     [ "createConstraint", "_constraint_8hpp.html#a2ecfc80bd8f1433e477f5ed57c84c937", null ],

@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" href="$class_decision_rule_i_f.html" title="Decision rule approximator interface." alt="" coords="236,335,348,361"/>
 <area shape="rect" id="node2" href="$class_continuous_vars_d_r_i_f.html" title="Continous variable decision rule interface class." alt="" coords="473,309,619,336"/>
 <area shape="rect" id="node4" href="$class_discrete_vars_d_r_i_f.html" title="Discrete variable decision rule interface." alt="" coords="481,56,611,83"/>
-<area shape="rect" id="node6" href="$class_kadaptability_decision_rule.html" title="K&#45;adaptability approximator." alt="" coords="459,360,633,387"/>
+<area shape="rect" id="node6" href="$class_kadaptability.html" title="K&#45;adaptability approximator." alt="" coords="497,360,595,387"/>
 <area shape="rect" id="node7" href="$class_piecewise_decision_rule.html" title="Piecewise constant and piecewise linear decision rule approximator." alt="" coords="466,411,626,437"/>
 <area shape="rect" id="node3" href="$class_linear_decision_rule.html" title="Linear decision rule." alt="" coords="747,487,882,513"/>
 <area shape="rect" id="node5" href="$class_constant_decision_rule.html" title="Constant decision rule." alt="" coords="738,95,891,121"/>

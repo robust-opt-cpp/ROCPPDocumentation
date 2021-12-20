@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="4.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ROC++
-   &#160;<span id="projectnumber">v1.0</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
    <div id="projectbrief">Automatic Robust Optimization in C++</div>
   </td>
@@ -110,29 +110,34 @@ $(document).ready(function(){initNavTree('_opt_model_converters_8cpp.html',''); 
 <code>#include &quot;<a class="el" href="_reformulation_orchestrator_8hpp_source.html">ReformulationOrchestrator.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_variable_converter_8hpp_source.html">VariableConverter.hpp</a>&quot;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for OptModelConverters.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="_opt_model_converters_8cpp__incl.png" border="0" usemap="#a_2_users_2lynn_2_desktop_2research_2_r_o_c_p_p-06102020_2_r_o_c_p_p_2_r_o_c_p_p_2src_2_opt_model_converters_8cpp" alt=""/></div>
 <map name="a_2_users_2lynn_2_desktop_2research_2_r_o_c_p_p-06102020_2_r_o_c_p_p_2_r_o_c_p_p_2src_2_opt_model_converters_8cpp" id="a_2_users_2lynn_2_desktop_2research_2_r_o_c_p_p-06102020_2_r_o_c_p_p_2_r_o_c_p_p_2src_2_opt_model_converters_8cpp">
-<area shape="rect" title=" " alt="" coords="590,5,887,61"/>
-<area shape="rect" href="_opt_model_converters_8hpp.html" title=" " alt="" coords="595,109,762,136"/>
+<area shape="rect" title=" " alt="" coords="607,5,905,61"/>
+<area shape="rect" href="_opt_model_converters_8hpp.html" title=" " alt="" coords="551,109,718,136"/>
 <area shape="rect" href="_reformulation_orchestrator_8hpp.html" title=" " alt="" coords="657,184,855,211"/>
-<area shape="rect" href="_include_files_8hpp.html" title=" " alt="" coords="453,109,571,136"/>
+<area shape="rect" href="_include_files_8hpp.html" title=" " alt="" coords="191,109,308,136"/>
 <area shape="rect" href="_decision_variable_8hpp.html" title=" " alt="" coords="5,184,149,211"/>
-<area shape="rect" href="_uncertainty_8hpp.html" title=" " alt="" coords="173,184,285,211"/>
-<area shape="rect" href="_constraint_term_8hpp.html" title=" " alt="" coords="309,184,445,211"/>
-<area shape="rect" href="_constraint_8hpp.html" title=" " alt="" coords="880,184,987,211"/>
-<area shape="rect" href="_optimization_model_8hpp.html" title=" " alt="" coords="1011,184,1165,211"/>
-<area shape="rect" href="_variable_converter_8hpp.html" title=" " alt="" coords="939,109,1088,136"/>
-<area shape="rect" title=" " alt="" coords="1112,109,1171,136"/>
-<area shape="rect" href="_header_include_files_8hpp.html" title=" " alt="" coords="446,259,605,285"/>
-<area shape="rect" title=" " alt="" coords="551,333,623,360"/>
-<area shape="rect" title=" " alt="" coords="354,333,401,360"/>
-<area shape="rect" title=" " alt="" coords="457,333,527,360"/>
-<area shape="rect" title=" " alt="" coords="947,259,1008,285"/>
-<area shape="rect" title=" " alt="" coords="737,259,796,285"/>
-<area shape="rect" href="_exceptions_8hpp.html" title=" " alt="" coords="469,184,581,211"/>
+<area shape="rect" href="_uncertainty_8hpp.html" title=" " alt="" coords="309,184,421,211"/>
+<area shape="rect" href="_constraint_term_8hpp.html" title=" " alt="" coords="445,184,581,211"/>
+<area shape="rect" href="_constraint_8hpp.html" title=" " alt="" coords="1059,184,1165,211"/>
+<area shape="rect" href="_optimization_model_8hpp.html" title=" " alt="" coords="880,184,1035,211"/>
+<area shape="rect" href="_variable_converter_8hpp.html" title=" " alt="" coords="895,109,1044,136"/>
+<area shape="rect" title=" " alt="" coords="1068,109,1127,136"/>
+<area shape="rect" title=" " alt="" coords="1151,109,1225,136"/>
+<area shape="rect" href="_header_include_files_8hpp.html" title=" " alt="" coords="498,259,657,285"/>
+<area shape="rect" title=" " alt="" coords="711,333,783,360"/>
+<area shape="rect" title=" " alt="" coords="383,333,430,360"/>
+<area shape="rect" title=" " alt="" coords="455,333,524,360"/>
+<area shape="rect" title=" " alt="" coords="548,333,607,360"/>
+<area shape="rect" title=" " alt="" coords="631,333,686,360"/>
+<area shape="rect" title=" " alt="" coords="948,259,1009,285"/>
+<area shape="rect" title=" " alt="" coords="785,259,844,285"/>
+<area shape="rect" href="_exceptions_8hpp.html" title=" " alt="" coords="173,184,285,211"/>
+<area shape="rect" title=" " alt="" coords="46,259,109,285"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -141,7 +146,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a9328b5cb54a653cab5ead1445cbbce76"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
 <tr class="memitem:a9328b5cb54a653cab5ead1445cbbce76"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_opt_model_converters_8cpp.html#a9328b5cb54a653cab5ead1445cbbce76">pairCompare</a> (const pair&lt; T1, T2 &gt; &amp;x, const pair&lt; T1, T2 &gt; &amp;y)</td></tr>
 <tr class="separator:a9328b5cb54a653cab5ead1445cbbce76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ecac5678d4d613c442ce0b406f1f766"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_opt_model_converters_8cpp.html#a7ecac5678d4d613c442ce0b406f1f766">pairCompare</a> (const pair&lt; pair&lt; string, string &gt;, uint &gt; &amp;x, const pair&lt; pair&lt; string, string &gt;, uint &gt; &amp;y)</td></tr>
+<tr class="memitem:a7ecac5678d4d613c442ce0b406f1f766"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_opt_model_converters_8cpp.html#a7ecac5678d4d613c442ce0b406f1f766">pairCompare</a> (const pair&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;x, const pair&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;y)</td></tr>
 <tr class="separator:a7ecac5678d4d613c442ce0b406f1f766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67d6f52206d27a8bc49cf21d27eff796"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a67d6f52206d27a8bc49cf21d27eff796"><td class="memTemplItemLeft" align="right" valign="top">T::iterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_opt_model_converters_8cpp.html#a67d6f52206d27a8bc49cf21d27eff796">map_max_element</a> (T &amp;A)</td></tr>
@@ -217,13 +222,13 @@ template&lt;class T &gt; </div>
         <tr>
           <td class="memname">bool pairCompare </td>
           <td>(</td>
-          <td class="paramtype">const pair&lt; pair&lt; string, string &gt;, uint &gt; &amp;&#160;</td>
+          <td class="paramtype">const pair&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const pair&lt; pair&lt; string, string &gt;, uint &gt; &amp;&#160;</td>
+          <td class="paramtype">const pair&lt; pair&lt; string, string &gt;, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>

@@ -1,5 +1,7 @@
 var class_classic_constraint_i_f =
 [
+    [ "const_iterator", "class_classic_constraint_i_f.html#aa3b262bb32034b32290167bb2b3c5ff7", null ],
+    [ "uncertaintiesIterator", "class_classic_constraint_i_f.html#a2d32a23e019abe85aa61790f03a32674", null ],
     [ "ClassicConstraintIF", "class_classic_constraint_i_f.html#ac3be0ebbb5d136c7ba3a8057316ce7da", null ],
     [ "~ClassicConstraintIF", "class_classic_constraint_i_f.html#a7bffb6b4f9293b6c0d9aceb612dee6e0", null ],
     [ "add_int_vars", "class_classic_constraint_i_f.html#af3961e46f057df88386d7e8f86df2ab7", null ],
@@ -51,8 +53,8 @@ var class_classic_constraint_i_f =
     [ "replaceBilinearTerm", "class_classic_constraint_i_f.html#a88c11bfd44f85adf37d431b8adc0d1b1", null ],
     [ "replaceTermWithVar", "class_classic_constraint_i_f.html#ac5c0e3d94710dfd4f2e30d070743ad01", null ],
     [ "set_rhs", "class_classic_constraint_i_f.html#a290ad51724c8488a365312aa722d18d4", null ],
-    [ "uncertaintiesBegin", "class_classic_constraint_i_f.html#a9d6fc59f7803a6fa7a2314b4c7664843", null ],
-    [ "uncertaintiesEnd", "class_classic_constraint_i_f.html#a100549475cc1033b277c8d599ea2fad8", null ],
+    [ "uncertaintiesBegin", "class_classic_constraint_i_f.html#a5e5148d1b7542f19b671280f1203ea34", null ],
+    [ "uncertaintiesEnd", "class_classic_constraint_i_f.html#a7ef6eb9a554f14e46e72fef8c32cc3b0", null ],
     [ "varsBegin", "class_classic_constraint_i_f.html#af087740d869501415a4ae69c37589490", null ],
     [ "varsEnd", "class_classic_constraint_i_f.html#a45aeb0fa1a0d5c1d57c12605a209754a", null ],
     [ "WriteToStream", "class_classic_constraint_i_f.html#a92d43c12153230d3c98fa4df8f4a06ef", null ],

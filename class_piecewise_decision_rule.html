@@ -32,7 +32,7 @@
   <td id="projectlogo"><img alt="Logo" src="4.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ROC++
-   &#160;<span id="projectnumber">v1.0</span>
+   &#160;<span id="projectnumber">v1.2</span>
    </div>
    <div id="projectbrief">Automatic Robust Optimization in C++</div>
   </td>
@@ -131,7 +131,7 @@ Collaboration diagram for PiecewiseDecisionRule:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0d28f53eaa7c27b1085332e128d1c27c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a0d28f53eaa7c27b1085332e128d1c27c">PiecewiseDecisionRule</a> (const map&lt; string, uint &gt; &amp;numPartitionsMap=map&lt; string, uint &gt;(), double bigM=100., bool useExplicitNACs=false, string folder=&quot; &quot;)</td></tr>
+<tr class="memitem:a0d28f53eaa7c27b1085332e128d1c27c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a0d28f53eaa7c27b1085332e128d1c27c">PiecewiseDecisionRule</a> (const map&lt; string, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;numPartitionsMap=map&lt; string, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt;(), double bigM=100., bool useExplicitNACs=false, string folder=&quot; &quot;)</td></tr>
 <tr class="memdesc:a0d28f53eaa7c27b1085332e128d1c27c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the <a class="el" href="class_piecewise_decision_rule.html" title="Piecewise constant and piecewise linear decision rule approximator.">PiecewiseDecisionRule</a> class.  <a href="class_piecewise_decision_rule.html#a0d28f53eaa7c27b1085332e128d1c27c">More...</a><br /></td></tr>
 <tr class="separator:a0d28f53eaa7c27b1085332e128d1c27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43bd756d8bdd36bef146b0e204d493b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a43bd756d8bdd36bef146b0e204d493b8">~PiecewiseDecisionRule</a> ()</td></tr>
@@ -155,18 +155,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a329f2ee0fcf318a7e6fe22268ba51663"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a329f2ee0fcf318a7e6fe22268ba51663">calculateSolution</a> (<a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;resultIn, <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a> unc, string partition)</td></tr>
 <tr class="memdesc:a329f2ee0fcf318a7e6fe22268ba51663"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the measurement variable value for the given uncertainty on the given subset of the partition.  <a href="class_piecewise_decision_rule.html#a329f2ee0fcf318a7e6fe22268ba51663">More...</a><br /></td></tr>
 <tr class="separator:a329f2ee0fcf318a7e6fe22268ba51663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac899fead0c890bec383b1ec732baf4ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#ac899fead0c890bec383b1ec732baf4ed">getWsSolutions</a> (<a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;warmStartResults, const map&lt; string, uint &gt; &amp;wsMap, map&lt; string, double &gt; &amp;wsSolutions)</td></tr>
+<tr class="memitem:ac899fead0c890bec383b1ec732baf4ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#ac899fead0c890bec383b1ec732baf4ed">getWsSolutions</a> (<a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;warmStartResults, const map&lt; string, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;wsMap, map&lt; string, double &gt; &amp;wsSolutions)</td></tr>
 <tr class="memdesc:ac899fead0c890bec383b1ec732baf4ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the warm start solution of this problem by setting the variables which exist in the warm start problem to their solutions and assigning the variables which do not exist in the warm start problem to the solutions on the nearest partition.  <a href="class_piecewise_decision_rule.html#ac899fead0c890bec383b1ec732baf4ed">More...</a><br /></td></tr>
 <tr class="separator:ac899fead0c890bec383b1ec732baf4ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d7473b051b501225c976182e9cd7c35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a3d7473b051b501225c976182e9cd7c35">printParametersToScreen</a> () const</td></tr>
 <tr class="separator:a3d7473b051b501225c976182e9cd7c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a091e8fa950cdf52b663785b196917eb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a091e8fa950cdf52b663785b196917eb1">printOut</a> (const <a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;resultIn, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> dv, map&lt; <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a>, uint &gt; partitionIn)</td></tr>
+<tr class="memitem:a091e8fa950cdf52b663785b196917eb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a091e8fa950cdf52b663785b196917eb1">printOut</a> (const <a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;resultIn, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> dv, map&lt; <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a>, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; partitionIn)</td></tr>
 <tr class="memdesc:a091e8fa950cdf52b663785b196917eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out the solution for the given variable on the given subset of the partition.  <a href="class_piecewise_decision_rule.html#a091e8fa950cdf52b663785b196917eb1">More...</a><br /></td></tr>
 <tr class="separator:a091e8fa950cdf52b663785b196917eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d4169b8c336fca7e2d6ba4afd5a2b3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a9d4169b8c336fca7e2d6ba4afd5a2b3b">printOut</a> (const <a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;resultIn, <a class="el" href="_header_include_files_8hpp.html#a6e52273950ba2054c2a0c500bf96ab79">ROCPPVarIF_Ptr</a> dv)</td></tr>
 <tr class="memdesc:a9d4169b8c336fca7e2d6ba4afd5a2b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out the solution for the given variable on all subsets of the the partition.  <a href="class_piecewise_decision_rule.html#a9d4169b8c336fca7e2d6ba4afd5a2b3b">More...</a><br /></td></tr>
 <tr class="separator:a9d4169b8c336fca7e2d6ba4afd5a2b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af18fada6bb8b0a358b358f8644a1bafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#af18fada6bb8b0a358b358f8644a1bafa">printOut</a> (const <a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;resultIn, <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a> unc, map&lt; <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a>, uint &gt; partitionIn)</td></tr>
+<tr class="memitem:af18fada6bb8b0a358b358f8644a1bafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#af18fada6bb8b0a358b358f8644a1bafa">printOut</a> (const <a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;resultIn, <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a> unc, map&lt; <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a>, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; partitionIn)</td></tr>
 <tr class="memdesc:af18fada6bb8b0a358b358f8644a1bafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out whether observe or not the given uncertainty on the given subset of the partition.  <a href="class_piecewise_decision_rule.html#af18fada6bb8b0a358b358f8644a1bafa">More...</a><br /></td></tr>
 <tr class="separator:af18fada6bb8b0a358b358f8644a1bafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37cdef93eff5f3a6bb5cc3457147ad64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a37cdef93eff5f3a6bb5cc3457147ad64">printOut</a> (const <a class="el" href="_header_include_files_8hpp.html#abe175dd6b065e1014c0770edc54f9728">ROCPPOptModelIF_Ptr</a> pIn, const map&lt; string, double &gt; &amp;resultIn, <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a> unc)</td></tr>
@@ -179,13 +179,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30d206c1beeea1eb80675e465da79934"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a30d206c1beeea1eb80675e465da79934">getName</a> () const</td></tr>
 <tr class="separator:a30d206c1beeea1eb80675e465da79934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_decision_rule_i_f"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_decision_rule_i_f')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_decision_rule_i_f.html">DecisionRuleIF</a></td></tr>
-<tr class="memitem:a708df235c4a5c960f82f07e3b49ba9aa inherit pub_methods_class_decision_rule_i_f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a708df235c4a5c960f82f07e3b49ba9aa">DecisionRuleIF</a> (uint memory=1000)</td></tr>
+<tr class="memitem:a708df235c4a5c960f82f07e3b49ba9aa inherit pub_methods_class_decision_rule_i_f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a708df235c4a5c960f82f07e3b49ba9aa">DecisionRuleIF</a> (<a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> memory=1000)</td></tr>
 <tr class="memdesc:a708df235c4a5c960f82f07e3b49ba9aa inherit pub_methods_class_decision_rule_i_f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of the <a class="el" href="class_decision_rule_i_f.html" title="Decision rule approximator interface.">DecisionRuleIF</a> class.  <a href="class_decision_rule_i_f.html#a708df235c4a5c960f82f07e3b49ba9aa">More...</a><br /></td></tr>
 <tr class="separator:a708df235c4a5c960f82f07e3b49ba9aa inherit pub_methods_class_decision_rule_i_f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafd42765e281a432dce2710b31e94aa9 inherit pub_methods_class_decision_rule_i_f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#aafd42765e281a432dce2710b31e94aa9">~DecisionRuleIF</a> ()</td></tr>
 <tr class="memdesc:aafd42765e281a432dce2710b31e94aa9 inherit pub_methods_class_decision_rule_i_f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor of the <a class="el" href="class_decision_rule_i_f.html" title="Decision rule approximator interface.">DecisionRuleIF</a> class.  <a href="class_decision_rule_i_f.html#aafd42765e281a432dce2710b31e94aa9">More...</a><br /></td></tr>
 <tr class="separator:aafd42765e281a432dce2710b31e94aa9 inherit pub_methods_class_decision_rule_i_f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a815236ff08eae1da271cfeef948622ab inherit pub_methods_class_decision_rule_i_f"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a815236ff08eae1da271cfeef948622ab">getMemory</a> () const</td></tr>
+<tr class="memitem:a815236ff08eae1da271cfeef948622ab inherit pub_methods_class_decision_rule_i_f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#a815236ff08eae1da271cfeef948622ab">getMemory</a> () const</td></tr>
 <tr class="separator:a815236ff08eae1da271cfeef948622ab inherit pub_methods_class_decision_rule_i_f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_reformulation_strategy_i_f"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_reformulation_strategy_i_f')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_reformulation_strategy_i_f.html">ReformulationStrategyIF</a></td></tr>
 <tr class="memitem:a0556851ba990850d80740a8c491c5249 inherit pub_methods_class_reformulation_strategy_i_f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_reformulation_strategy_i_f.html#a0556851ba990850d80740a8c491c5249">ReformulationStrategyIF</a> ()</td></tr>
@@ -241,19 +241,19 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a539b994c00a143008b29e3980b90af3f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a539b994c00a143008b29e3980b90af3f">m_bigM</a></td></tr>
 <tr class="memdesc:a539b994c00a143008b29e3980b90af3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of the big M constant.  <a href="class_piecewise_decision_rule.html#a539b994c00a143008b29e3980b90af3f">More...</a><br /></td></tr>
 <tr class="separator:a539b994c00a143008b29e3980b90af3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa679760256946441298ef916d8110b51"><td class="memItemLeft" align="right" valign="top">map&lt; string, uint &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#aa679760256946441298ef916d8110b51">m_numPartitionsMap</a></td></tr>
+<tr class="memitem:aa679760256946441298ef916d8110b51"><td class="memItemLeft" align="right" valign="top">map&lt; string, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#aa679760256946441298ef916d8110b51">m_numPartitionsMap</a></td></tr>
 <tr class="separator:aa679760256946441298ef916d8110b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c9f1d87976b9cf446f6f05cc1845b13"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a9c9f1d87976b9cf446f6f05cc1845b13">m_folder</a></td></tr>
 <tr class="memdesc:a9c9f1d87976b9cf446f6f05cc1845b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the folder where to write the text file.  <a href="class_piecewise_decision_rule.html#a9c9f1d87976b9cf446f6f05cc1845b13">More...</a><br /></td></tr>
 <tr class="separator:a9c9f1d87976b9cf446f6f05cc1845b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7902d93be8bf0ea4ede331d2af009c02"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a7902d93be8bf0ea4ede331d2af009c02">m_numBits</a></td></tr>
+<tr class="memitem:a7902d93be8bf0ea4ede331d2af009c02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_piecewise_decision_rule.html#a7902d93be8bf0ea4ede331d2af009c02">m_numBits</a></td></tr>
 <tr class="memdesc:a7902d93be8bf0ea4ede331d2af009c02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of bits used to approximate the real valued variables affecting the uncertainty set.  <a href="class_piecewise_decision_rule.html#a7902d93be8bf0ea4ede331d2af009c02">More...</a><br /></td></tr>
 <tr class="separator:a7902d93be8bf0ea4ede331d2af009c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_decision_rule_i_f"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_decision_rule_i_f')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_decision_rule_i_f.html">DecisionRuleIF</a></td></tr>
-<tr class="memitem:add77c752283e7144f23d57037610b084 inherit pro_attribs_class_decision_rule_i_f"><td class="memItemLeft" align="right" valign="top">uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#add77c752283e7144f23d57037610b084">m_memory</a></td></tr>
+<tr class="memitem:add77c752283e7144f23d57037610b084 inherit pro_attribs_class_decision_rule_i_f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_decision_rule_i_f.html#add77c752283e7144f23d57037610b084">m_memory</a></td></tr>
 <tr class="memdesc:add77c752283e7144f23d57037610b084 inherit pro_attribs_class_decision_rule_i_f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Memory of this approximator.  <a href="class_decision_rule_i_f.html#add77c752283e7144f23d57037610b084">More...</a><br /></td></tr>
 <tr class="separator:add77c752283e7144f23d57037610b084 inherit pro_attribs_class_decision_rule_i_f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -270,8 +270,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">PiecewiseDecisionRule::PiecewiseDecisionRule </td>
           <td>(</td>
-          <td class="paramtype">const map&lt; string, uint &gt; &amp;&#160;</td>
-          <td class="paramname"><em>numPartitionsMap</em> = <code>map&lt;string,&#160;uint&gt;()</code>, </td>
+          <td class="paramtype">const map&lt; string, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>numPartitionsMap</em> = <code>map&lt;string,&#160;<a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&gt;()</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -739,7 +739,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const map&lt; string, uint &gt; &amp;&#160;</td>
+          <td class="paramtype">const map&lt; string, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>wsMap</em>, </td>
         </tr>
         <tr>
@@ -888,7 +888,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">map&lt; <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a>, uint &gt;&#160;</td>
+          <td class="paramtype">map&lt; <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a>, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt;&#160;</td>
           <td class="paramname"><em>partitionIn</em>&#160;</td>
         </tr>
         <tr>
@@ -966,7 +966,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">map&lt; <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a>, uint &gt;&#160;</td>
+          <td class="paramtype">map&lt; <a class="el" href="_header_include_files_8hpp.html#aad22e90175ed941d4fa5f81ffb17f979">ROCPPUnc_Ptr</a>, <a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> &gt;&#160;</td>
           <td class="paramname"><em>partitionIn</em>&#160;</td>
         </tr>
         <tr>
@@ -1085,7 +1085,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint PiecewiseDecisionRule::m_numBits</td>
+          <td class="memname"><a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a> PiecewiseDecisionRule::m_numBits</td>
         </tr>
       </table>
   </td>
@@ -1109,7 +1109,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">map&lt;string,uint&gt; PiecewiseDecisionRule::m_numPartitionsMap</td>
+          <td class="memname">map&lt;string,<a class="el" href="_header_include_files_8hpp.html#ad46b2ebcd4c426b06cda147ddc1001e7">uint</a>&gt; PiecewiseDecisionRule::m_numPartitionsMap</td>
         </tr>
       </table>
   </td>

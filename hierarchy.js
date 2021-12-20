@@ -4,9 +4,7 @@ var hierarchy =
       [ "ClassicConstraintIF", "class_classic_constraint_i_f.html", [
         [ "EqConstraint", "class_eq_constraint.html", null ],
         [ "IneqConstraint", "class_ineq_constraint.html", null ]
-      ] ],
-      [ "IfThenConstraint", "class_if_then_constraint.html", null ],
-      [ "SOSConstraint", "class_s_o_s_constraint.html", null ]
+      ] ]
     ] ],
     [ "ConstraintTermIF", "class_constraint_term_i_f.html", [
       [ "NormTerm", "class_norm_term.html", null ],
@@ -19,7 +17,7 @@ var hierarchy =
       [ "DiscreteVarsDRIF", "class_discrete_vars_d_r_i_f.html", [
         [ "ConstantDecisionRule", "class_constant_decision_rule.html", null ]
       ] ],
-      [ "KadaptabilityDecisionRule", "class_kadaptability_decision_rule.html", null ],
+      [ "Kadaptability", "class_kadaptability.html", null ],
       [ "PiecewiseDecisionRule", "class_piecewise_decision_rule.html", null ]
     ] ],
     [ "DecisionVariableIF", "class_decision_variable_i_f.html", [
@@ -74,7 +72,7 @@ var hierarchy =
         [ "UnaryConverter", "class_unary_converter.html", null ]
       ] ],
       [ "ConstantDecisionRule", "class_constant_decision_rule.html", null ],
-      [ "KadaptabilityDecisionRule", "class_kadaptability_decision_rule.html", null ],
+      [ "Kadaptability", "class_kadaptability.html", null ],
       [ "LinearDecisionRule", "class_linear_decision_rule.html", null ],
       [ "PiecewiseDecisionRule", "class_piecewise_decision_rule.html", null ],
       [ "RobustifyEngine", "class_robustify_engine.html", null ],

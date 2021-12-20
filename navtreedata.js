@@ -41,10 +41,10 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", "globals_func" ],
-        [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ]
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -53,13 +53,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_constraint_8cpp.html",
-"_interface_8cpp.html#a5f1771bcd09c623d983d0c477ca46023",
-"_optimization_model_8hpp.html#a0fea917251c2fe0e2e203a2535140ffbaa6693a2630a67329900065b9914deb6a",
-"class_constraint_term_i_f.html#a1b8f5009cddd5765a6107db0c7ff8b21",
-"class_l_h_s_expression.html#a83fea89fcde2ebeabe3dc8cf0ea891fa",
-"class_optimization_model_i_f.html#a149ad7113b0e53ce7032f7a174780323",
-"class_reformulation_strategy_i_f.html#ad3a2fd50c0ca9000544f58d0e1e2be85",
-"class_variable_bool.html#a9c472c24211976fafcf7d550f44f9747"
+"_interface_8cpp.html#a581583f74f759dac7a4b213e00aac3f2",
+"_optimization_model_8hpp.html#a0fea917251c2fe0e2e203a2535140ffba4f7b7593bc55c2310512371508842bcb",
+"class_constraint_term_i_f.html#a2c12d66b0be0197d1d5bd8218b504895",
+"class_linear_decision_rule.html#aa363dfdfdcf6ffc2392ae398e3eea6a2",
+"class_optimization_model_i_f.html#ab34d35bdfb98563d0a2e7472186d7972",
+"class_simple_objective.html#af3372265971574e811d2f78e4a6a0c05",
+"functions_func.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
